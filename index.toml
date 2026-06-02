@@ -118,7 +118,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "96bcf88b2b8ec4d37a95b9c6353ef2c74e6a17af9ebf7f06a30a357b33d6d756"
+hash = "96e05ed357bc411a0b75ab9d96a2459cdba93fbabe765bb6b760ed71c17dc621"
 
 [[files]]
 file = "config/krypton_fnp.yaml"
@@ -162,7 +162,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
+hash = "445a55bccce87dd8467f3265d1572827e8778e873e3bb70290adf0bb8a811e96"
 
 [[files]]
 file = "config/spark/config.json"
@@ -273,6 +273,10 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/config/probe-settings.json"
+hash = "735599ec2db216a8fd145d32b565d990936fbb9bcc1aa10225cc065280f5611b"
+
+[[files]]
 file = "kubejs/config/web_server.json"
 hash = "c86762059c51d3fef28b6b251609e5b3de1cbceaa3bcacee74326fd30018e2ca"
 
@@ -350,6 +354,11 @@ hash = "58e0bebd41fa44f3f0dd6c053ec3eb1529d4bfe0c054c0741ba6e2e1b8e4523e"
 metafile = true
 
 [[files]]
+file = "mods/lithosphere.pw.toml"
+hash = "337093b94742d334ad349d4fbfe1b74a9b885784ac6d43432896b3dc527260a9"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "e16a311d5197e286f0955f2ebfb46a72d711050e589224f60fcb8e931eb3a386"
 metafile = true
@@ -404,6 +413,10 @@ hash = "d30df1411378487ef8fc8b6be5af1dc783f33e2651d6d9fe6416246edfb186f7"
 [[files]]
 file = "reports/seed-eval-20260602-185217.csv"
 hash = "f597338756078f71ee05e9607e69b786ac1d48159cc1052d552f1c166952b2eb"
+
+[[files]]
+file = "reports/seed-eval-20260602-222528.csv"
+hash = "250cef02619cccf3db13579f47b54fc1b0686d9ad7ab38fe620f17a2d0689bd5"
 
 [[files]]
 file = "scripts/check-workflow.ps1"
