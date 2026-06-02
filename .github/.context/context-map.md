@@ -39,6 +39,8 @@
 	- `powershell -ExecutionPolicy Bypass -File .\scripts\new-terrain-branch.ps1 -Slug <name> -Seed <seed>`
 - Search mods/datapacks/resourcepacks/shaders (Modrinth + CurseForge + GitHub):
 	- `powershell -ExecutionPolicy Bypass -File .\scripts\search-content.ps1 -Query <term> -Type mod -GameVersion 1.21.1 -Loader neoforge`
+- Prepare Prism manual validation preflight:
+	- `powershell -ExecutionPolicy Bypass -File .\scripts\prepare-prism-check.ps1`
 
 ## Context docs
 - Architecture: `.github/.context/system-architecture.md`
@@ -47,6 +49,8 @@
 - Server allowlist/pregen spec: `.github/.context/specs/server-allowlist-pregen-profiles.md`
 - Cubiomes seed workflow spec: `.github/.context/specs/cubiomes-seed-workflow.md`
 - Content discovery spec: `.github/.context/specs/content-discovery-workflow.md`
+- Prism check spec: `.github/.context/specs/prism-manual-check.md`
+- Installed mods inventory: `.github/.context/mod-list.md`
 - Git convention spec: `.github/.context/specs/git-branch-and-commit-convention.md`
 - Git workflow skill: `.github/.context/skills/git-workflow/SKILL.md`
 - Content discovery skill: `.github/.context/skills/content-discovery/SKILL.md`
