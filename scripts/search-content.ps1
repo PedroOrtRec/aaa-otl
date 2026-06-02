@@ -8,6 +8,7 @@ param(
     [switch]$SkipModrinth,
     [switch]$SkipCurseForge,
     [switch]$SkipGitHub,
+    [switch]$ReviewCandidate,
     [int]$Limit = 10
 )
 
@@ -45,5 +46,21 @@ if (-not $SkipGitHub) {
     }
     catch {
         Write-Host "GitHub search failed: $($_.Exception.Message)" -ForegroundColor Yellow
+    }
+}
+
+if ($ReviewCandidate) {
+    Write-Host "" 
+    Write-Host "=== Candidate Review ===" -ForegroundColor Cyan
+    try {
+        if ($Type -eq "mod") {
+            & (Join-Path $repoRoot "scripts/review-mod-candidate.ps1") -Query $Query -GameVersion $GameVersion -Loader $Loader
+        }
+        else {
+            & (Join-Path $repoRoot "scripts/review-content-candidate.ps1") -Query $Query -Type $Type -GameVersion $GameVersion
+        }
+    }
+    catch {
+        Write-Host "Candidate review failed: $($_.Exception.Message)" -ForegroundColor Yellow
     }
 }
