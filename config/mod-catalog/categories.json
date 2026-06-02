@@ -1,0 +1,30 @@
+{
+  "byName": {
+    "bad packets": "performance",
+    "distant horizons": "performance",
+    "entity culling": "performance",
+    "ferritecore": "performance",
+    "immediatelyfast": "performance",
+    "iris shaders": "performance",
+    "krypton reno": "performance",
+    "lithium": "performance",
+    "modernfix": "performance",
+    "noisium": "performance",
+    "sodium": "performance",
+    "spark": "performance",
+    "fzzy config": "configuration",
+    "global packs": "configuration",
+    "in control!": "configuration",
+    "kotlin for forge": "configuration",
+    "kubejs": "configuration",
+    "probejs": "configuration",
+    "rhino": "configuration",
+    "xaero's minimap": "configuration",
+    "xaero's world map": "configuration"
+  },
+  "categoryOrder": [
+    "performance",
+    "configuration",
+    "uncategorized"
+  ]
+}

@@ -16,10 +16,13 @@
 	"scripts": {
 		"checkWorkflow": "./scripts/check-workflow.ps1",
 		"packwizRefresh": "./scripts/packwiz-refresh.ps1",
+		"updateModList": "./scripts/update-mod-list.ps1",
 		"startServerDev": "./scripts/start-server-dev.ps1",
 		"serverPregen": "../tools/server/run-pregen.ps1",
 		"evaluateSeeds": "./scripts/evaluate-seeds.ps1",
 		"newTerrainBranch": "./scripts/new-terrain-branch.ps1",
+		"reviewModCandidate": "./scripts/review-mod-candidate.ps1",
+		"monitorPerformance": "./scripts/monitor-performance.ps1",
 		"searchContent": "./scripts/search-content.ps1",
 		"searchModrinth": "./scripts/search-modrinth.ps1",
 		"searchCurseForge": "./scripts/search-curseforge.ps1",

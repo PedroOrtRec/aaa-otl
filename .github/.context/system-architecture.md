@@ -17,11 +17,12 @@ Prism client instance and the local NeoForge server consume this state through s
 - Prism instance links three directories to this repository:
 	- `minecraft/config` -> `aaa-otl/config`
 	- `minecraft/kubejs` -> `aaa-otl/kubejs`
-	- `minecraft/mods` -> `aaa-otl/mods`
 - Server links two directories to this repository:
 	- `server/config` -> `aaa-otl/config`
 	- `server/kubejs` -> `aaa-otl/kubejs`
 
+Prism `minecraft/mods` is a real runtime folder populated at launch by packwiz-installer-bootstrap.
+Repository `mods/` contains packwiz source metadata only.
 Server mods are synchronized from `aaa-otl/mods` into `../tools/server/mods` by script.
 
 ## Development flow

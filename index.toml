@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/.context/.copilot-instructions"
-hash = "5a3a60317aa62c7f2c27fa787f9c1b9f5ddcd985e6aa80b2937389a490ea7d8e"
+hash = "b386bc6608feceeff6d29406f2299e9b68332c788a656ef214016424894b937c"
 
 [[files]]
 file = ".github/.context/adr/ADR-0001-dev-workflow-topology.md"
@@ -14,15 +14,15 @@ hash = "fa932eb3bf3949ff846da826c661e43cab69edb87468b92b8722f910d8f1b1cc"
 
 [[files]]
 file = ".github/.context/context-map.md"
-hash = "34eb3a7d755e5afb68e1db5d07a9e9feb37c7042f59e383fd67f6d922efd66af"
+hash = "1970f71ecd06b11e437bce84df4fecb4b4250d29fe5b89fca5b4f793fa98495f"
 
 [[files]]
 file = ".github/.context/mcp-config.json"
-hash = "db219cadec0fe2513d336e64c61a077ac03504dffb870fc1a55fb6bcdc2c947f"
+hash = "595046904707f120e393bcfd061a3e5f9a4d4d746e3dd615c4fd93b64cbba5ed"
 
 [[files]]
 file = ".github/.context/mod-list.md"
-hash = "d0fc0efb9adc91749e4c601fbe3d87bb3d93025b6bc62b1744c10645e57a381e"
+hash = "768644de5cdd9b99806dd152f7df33f3a84b505c1a0bf4969622a4b042a4223a"
 
 [[files]]
 file = ".github/.context/roadmap.md"
@@ -35,6 +35,14 @@ hash = "5b0d4e758c46f75b73299c44d083d32c7e52f64cbaf69e646a8363a6b09e5fcf"
 [[files]]
 file = ".github/.context/skills/git-workflow/SKILL.md"
 hash = "63349fde0ea613cda97df073b65bc2a33601ce23d182c740b1bb4c955a2e7ff1"
+
+[[files]]
+file = ".github/.context/skills/mod-compat-review/SKILL.md"
+hash = "06a46a1601318ae0265ed8541f0c552b9f7f360dfacaa30e14e43c89be7d8e01"
+
+[[files]]
+file = ".github/.context/skills/performance-monitoring/SKILL.md"
+hash = "ea6acf1e9cdb4bf4bb88fd6e805574d7b962f1ae67a91f93c59f6a143a6c5733"
 
 [[files]]
 file = ".github/.context/specs/content-discovery-workflow.md"
@@ -53,8 +61,16 @@ file = ".github/.context/specs/git-branch-and-commit-convention.md"
 hash = "dd6dd87d7356daecf76aa1eff724690fd88bb61f4aaa3e6944205e5fbec6572f"
 
 [[files]]
+file = ".github/.context/specs/mod-compatibility-review.md"
+hash = "e54b6aed8f5d7623124ce9cdac969ff270176cf3de30817b3b1ea3dbd5ee399d"
+
+[[files]]
+file = ".github/.context/specs/performance-monitoring-workflow.md"
+hash = "33202ed43487f55cb18e4e08526fca4ecd68aefb5a0638698df6dc715589ad05"
+
+[[files]]
 file = ".github/.context/specs/prism-manual-check.md"
-hash = "1daccd690fac0c03860727329760966d168f6b15c0c6bf1958bec656468b004e"
+hash = "bc9eeaba9808cc7538d5a51a18327f73625985ffc2b12940d31675d61c2a995d"
 
 [[files]]
 file = ".github/.context/specs/server-allowlist-pregen-profiles.md"
@@ -62,11 +78,211 @@ hash = "1f4feb39c3c86bac19c221a969fdfe660c61abf7bdf8eae001869e691d811d08"
 
 [[files]]
 file = ".github/.context/system-architecture.md"
-hash = "94555550ae0982bcf022770ad0653e7b6247711d20bba778006af95911e44ceb"
+hash = "703ef45b9d5601073b49b6a469ea88fc7c7a6411e3cd3baeddc08b5450470f42"
+
+[[files]]
+file = "config/DistantHorizons.toml"
+hash = "ac3fef87c4653a44be476c802d4db6a22ffba435d8aaf7e5ef2a0a49f3970d4b"
+
+[[files]]
+file = "config/better-advanced-tooltips-client.toml"
+hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
+
+[[files]]
+file = "config/entityculling.json"
+hash = "da13c5bbd33e17050270f49fd151443f7aa8d16115c038c8d047c8844615b4d8"
+
+[[files]]
+file = "config/ferritecore-mixin.toml"
+hash = "1356f9d52b2dcb2afa5a593e53c286d9c1c3778a6f8b1cf761953b185b7dce78"
+
+[[files]]
+file = "config/fml.toml"
+hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
+
+[[files]]
+file = "config/fzzy_config/keybinds.toml"
+hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
+
+[[files]]
+file = "config/global_packs.toml"
+hash = "e521baea8cde5a275585c7063fa3272b79a303c73e4efb1d509a638914e1299e"
+
+[[files]]
+file = "config/immediatelyfast.json"
+hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
+
+[[files]]
+file = "config/iris-excluded.json"
+hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
+
+[[files]]
+file = "config/iris.properties"
+hash = "96bcf88b2b8ec4d37a95b9c6353ef2c74e6a17af9ebf7f06a30a357b33d6d756"
+
+[[files]]
+file = "config/krypton_fnp.yaml"
+hash = "7637131dbf6d97f0edca39274fa1afdf43260052c0b62649faf51283c5a1f0be"
+
+[[files]]
+file = "config/lithium.properties"
+hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
+
+[[files]]
+file = "config/mod-catalog/categories.json"
+hash = "6cee74575cf5f99c7eb80b8e3ac54217cf5623a03b231d8172d473e524a90172"
+
+[[files]]
+file = "config/modernfix-common.toml"
+hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "32bbaa6f573b612b92653fc2814365cd8aa423d39fcab4fa5dcfcb5f31121874"
+
+[[files]]
+file = "config/neoforge-client.toml"
+hash = "d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0"
+
+[[files]]
+file = "config/neoforge-common.toml"
+hash = "fe878a2717a145cd890621eac5b3be1e1fd656f7ff9abc6e8d53f670d37474c4"
+
+[[files]]
+file = "config/neoforge-server.toml"
+hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
+
+[[files]]
+file = "config/sodium-fingerprint.json"
+hash = "50ec846e9a5eda222126a7729bae2399a81d21d9910b52ddeb2148631a0c709e"
+
+[[files]]
+file = "config/sodium-mixins.properties"
+hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
+
+[[files]]
+file = "config/spark/config.json"
+hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
+
+[[files]]
+file = "config/spark/tmp-client/about.txt"
+hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
+
+[[files]]
+file = "config/spark/tmp/about.txt"
+hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
+
+[[files]]
+file = "config/transition.json"
+hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
+
+[[files]]
+file = "config/trender.json"
+hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
 
 [[files]]
 file = "config/worldgen/seed-candidates.csv"
 hash = "68e314daf2a412d6151bbb793478e832b356683d807f62c8adcc9e3b5cabd388"
+
+[[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+
+[[files]]
+file = "config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+
+[[files]]
+file = "config/xaero/lib/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_client.json"
+hash = "94fc0e69a1754ef80c54e1f3c9193526c620b0ac646f94a4a0f560bcc58826a8"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "db49c4dde15db318eb25e8a43fa06992778f0e17b3a963fff5cbee35da11fb81"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+
+[[files]]
+file = "config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "deece0fe0d29f2203a9699143a6209c451e91d7ecb799489c328b0d0fa31a90d"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "7b24c882801bcc7f0a8aedc625d419f661fa490fa0e9d5ebe39599a1ce2dcbd5"
+
+[[files]]
+file = "config/xaero/world-map/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaerohud.txt"
+hash = "58c9270f258d0b224bb7d0f7c927544d5fbe5f1b8027c820e1e14ecbf48fb88c"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/client_scripts/main.js"
+hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+hash = "c86762059c51d3fef28b6b251609e5b3de1cbceaa3bcacee74326fd30018e2ca"
+
+[[files]]
+file = "kubejs/server_scripts/main.js"
+hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "mods/badpackets.pw.toml"
@@ -155,7 +371,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "e8964aa3252bc02d75abbeac52b4d8deb621e56bc6b549e3127b0f2bc4a76fc2"
+hash = "5aa5f803860e8bfd8db77317575f66e91c0f826c74ec1a141dbc4587b60950fe"
 metafile = true
 
 [[files]]
@@ -174,16 +390,32 @@ hash = "ac287f392613eddfa285620dcecb3fea25ee6232a201009cde5c5511b6a39fb9"
 metafile = true
 
 [[files]]
+file = "reports/mod-review-embeddium-20260602-204322.md"
+hash = "69ef1fcc6842cea585bab0bd4d604a6e513c40775057d07c246b01ecc8cfcca2"
+
+[[files]]
+file = "reports/performance-report-20260602-204236.md"
+hash = "ef4b9418c8af10e4db22029fa954730d06e8bc0cdabc73a30e9489b8d250adf5"
+
+[[files]]
+file = "reports/performance-report-20260602-213530.md"
+hash = "d30df1411378487ef8fc8b6be5af1dc783f33e2651d6d9fe6416246edfb186f7"
+
+[[files]]
 file = "reports/seed-eval-20260602-185217.csv"
 hash = "f597338756078f71ee05e9607e69b786ac1d48159cc1052d552f1c166952b2eb"
 
 [[files]]
 file = "scripts/check-workflow.ps1"
-hash = "d68c73d15bb45c6bf3df2d084d6d7b92dc396e55becabd28856b6c45cf0b37b0"
+hash = "0e65a150c3423d64a8bda836b3247bf8d3a4b6e53e108b356dcef8b3fc515db8"
 
 [[files]]
 file = "scripts/evaluate-seeds.ps1"
 hash = "f6c8efad17241436f1e6a3045fa74a839ba3cae4b6b249439b25f97fc2ed0b5d"
+
+[[files]]
+file = "scripts/monitor-performance.ps1"
+hash = "05eab1e0aa98587e36fb315e0e1e1e59cd458213292676badbbe5cf4ec7eee87"
 
 [[files]]
 file = "scripts/new-terrain-branch.ps1"
@@ -195,7 +427,15 @@ hash = "775318f5adbe43889eeec9e278f1d3f6e99aa5f72d43e8aa34d24e7f86520bd2"
 
 [[files]]
 file = "scripts/prepare-prism-check.ps1"
-hash = "b6ba8ae6c8b8eac3b3f8e64f9107d7611b6ec9cc6631c96bbae620cb40841be1"
+hash = "99a4054d943151d004c3a5bdea8715bebcbd48528e16c78470f4004936b2b681"
+
+[[files]]
+file = "scripts/prism-packwiz-bootstrap.ps1"
+hash = "a43a358db969c9c8271980c91b4dae7ddd7cf92fdd49a917baa0315b77903ced"
+
+[[files]]
+file = "scripts/review-mod-candidate.ps1"
+hash = "612ac5fa534cd41b485522df7cd1492879cc03b90fc72b795e21b17e51971b57"
 
 [[files]]
 file = "scripts/search-content.ps1"
@@ -214,9 +454,17 @@ file = "scripts/search-modrinth.ps1"
 hash = "bb18f3569bc60c070cc41c9eba3f9897ab51b0429439007a1451ea3ce2ab9c15"
 
 [[files]]
+file = "scripts/setup-prism-runtime.ps1"
+hash = "199eb140d5c62f8ae266f2ec64f307e992336d73f7b306b8a9da3b00e6d0f7a7"
+
+[[files]]
 file = "scripts/start-server-dev.ps1"
 hash = "589ecf08bcef70ac8f4f1aa6fb67a7589f87dccb937e70f1882d2f46d4b1f03f"
 
 [[files]]
 file = "scripts/sync-server-mods.ps1"
 hash = "bd0992edf8c8aec766fe9d852b8b922f06f567937518906f2f54c7837d7f4bdd"
+
+[[files]]
+file = "scripts/update-mod-list.ps1"
+hash = "0869f3885c8161820efc1a0c18ce960ed07b10c6f4fd2bedacbde03d218a199a"

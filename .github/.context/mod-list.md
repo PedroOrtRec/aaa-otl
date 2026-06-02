@@ -1,5 +1,7 @@
 # mod-list
 
+Total mods: 21
+
 ## performance
 | Name | Version | Author | Description |
 |---|---|---|---|
@@ -13,7 +15,7 @@
 | Lithium | lithium-neoforge-0.15.3+mc1.21.1 | jellysquid3 | No-compromises game logic optimization mod, useful for both single-player games and multi-player servers. |
 | ModernFix | modernfix-neoforge-5.27.11+mc1.21.1 | embeddedt | All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods! |
 | Noisium | noisium-neoforge-2.3.0+mc1.21-1.21.1 | Steveplays | Optimises worldgen performance for a better gameplay experience. |
-| Sodium | sodium-neoforge-0.8.12-alpha.4+mc1.21.1 | IMS | A high-performance rendering engine replacement for Minecraft, which greatly improves frame rates and reduces micro-stutter. |
+| Sodium | sodium-neoforge-0.6.13+mc1.21.1 | IMS | A high-performance rendering engine replacement for Minecraft, which greatly improves frame rates and reduces micro-stutter. |
 | spark | spark-1.10.124-neoforge | lucko | spark is a performance profiler for Minecraft clients, servers and proxies. |
 
 ## configuration
@@ -29,4 +31,4 @@
 | Xaero's Minimap | xaerominimap-neoforge-1.21.1-25.3.13 | thexaero | Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help yo... |
 | Xaero's World Map | xaeroworldmap-neoforge-1.21.1-1.40.16 | thexaero | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. |
 
-Updated: 2026-06-02 20:32:42
+Updated: 2026-06-02 22:04:56

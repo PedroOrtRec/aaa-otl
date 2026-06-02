@@ -35,3 +35,18 @@
 - Discovery workflow is defined in `.github/.context/specs/content-discovery-workflow.md`.
 - Prefer `scripts/search-content.ps1` for first pass discovery.
 - Use `scripts/search-github-source.ps1` when source links are missing or unclear.
+
+## Mod review rules
+- Use `scripts/review-mod-candidate.ps1` when user asks if a new mod should be added.
+- Consider 1.21.1 + NeoForge compatibility, dependency gaps, and side (client/server) risks.
+- Rebuild `.github/.context/mod-list.md` after accepted changes.
+
+## Performance monitoring rules
+- Use `scripts/monitor-performance.ps1` to inspect Prism and pregen server logs.
+- Prioritize spark/TPS/MSPT/error signals when diagnosing regressions.
+- Compare reports before and after mod changes for objective tuning.
+
+## Prism runtime rules
+- Prism `mods/` must be a real runtime folder populated by `packwiz-installer-bootstrap`.
+- Use `scripts/setup-prism-runtime.ps1` once to configure the instance.
+- Use `scripts/prism-packwiz-bootstrap.ps1` as the Prism pre-launch command.

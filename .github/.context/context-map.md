@@ -8,7 +8,7 @@
 ## Workspace map
 - `pack.toml`: main packwiz metadata.
 - `index.toml`: packwiz index and hash manifest.
-- `mods/`: shared mod files used by Prism instance and server sync flow.
+- `mods/`: packwiz source metadata files.
 - `config/`: shared config linked into Prism instance and server.
 - `kubejs/`: shared scripts/data linked into Prism instance and server.
 - `.github/.context/`: living docs for architecture, roadmap, ADRs, and specs.
@@ -22,9 +22,9 @@
 ## Verified links
 - Prism `config` -> repo `config`
 - Prism `kubejs` -> repo `kubejs`
-- Prism `mods` -> repo `mods`
 - Server `config` -> repo `config`
 - Server `kubejs` -> repo `kubejs`
+- Prism `mods` runtime folder is managed by packwiz-installer-bootstrap
 
 ## Daily commands
 - Check environment and links:
@@ -41,6 +41,14 @@
 	- `powershell -ExecutionPolicy Bypass -File .\scripts\search-content.ps1 -Query <term> -Type mod -GameVersion 1.21.1 -Loader neoforge`
 - Prepare Prism manual validation preflight:
 	- `powershell -ExecutionPolicy Bypass -File .\scripts\prepare-prism-check.ps1`
+- Setup Prism runtime bootstrap and real mods folder:
+	- `powershell -ExecutionPolicy Bypass -File .\scripts\setup-prism-runtime.ps1`
+- Regenerate installed mod inventory:
+	- `powershell -ExecutionPolicy Bypass -File .\scripts\update-mod-list.ps1`
+- Review compatibility of a new mod candidate:
+	- `powershell -ExecutionPolicy Bypass -File .\scripts\review-mod-candidate.ps1 -Query <mod>`
+- Generate Prism/server performance report:
+	- `powershell -ExecutionPolicy Bypass -File .\scripts\monitor-performance.ps1 -Source both`
 
 ## Context docs
 - Architecture: `.github/.context/system-architecture.md`
@@ -50,10 +58,16 @@
 - Cubiomes seed workflow spec: `.github/.context/specs/cubiomes-seed-workflow.md`
 - Content discovery spec: `.github/.context/specs/content-discovery-workflow.md`
 - Prism check spec: `.github/.context/specs/prism-manual-check.md`
+- Prism runtime bootstrap script: `scripts/setup-prism-runtime.ps1`
+- Prism prelaunch bootstrap script: `scripts/prism-packwiz-bootstrap.ps1`
 - Installed mods inventory: `.github/.context/mod-list.md`
+- Mod compatibility review spec: `.github/.context/specs/mod-compatibility-review.md`
+- Performance monitoring spec: `.github/.context/specs/performance-monitoring-workflow.md`
 - Git convention spec: `.github/.context/specs/git-branch-and-commit-convention.md`
 - Git workflow skill: `.github/.context/skills/git-workflow/SKILL.md`
 - Content discovery skill: `.github/.context/skills/content-discovery/SKILL.md`
+- Mod compatibility review skill: `.github/.context/skills/mod-compat-review/SKILL.md`
+- Performance monitoring skill: `.github/.context/skills/performance-monitoring/SKILL.md`
 - ADR: `.github/.context/adr/ADR-0001-dev-workflow-topology.md`
 - ADR: `.github/.context/adr/ADR-0002-git-branching-and-commit-convention.md`
 

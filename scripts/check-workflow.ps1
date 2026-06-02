@@ -46,6 +46,24 @@ function Test-LinkTarget {
     return $true
 }
 
+function Test-RealDirectory {
+    param([string]$Path)
+
+    if (-not (Test-Path $Path)) {
+        Write-Host "[ERR] missing path: $Path" -ForegroundColor Red
+        return $false
+    }
+
+    $item = Get-Item $Path
+    if ($item.Attributes -band [IO.FileAttributes]::ReparsePoint) {
+        Write-Host "[ERR] should be a real directory, not a link: $Path" -ForegroundColor Red
+        return $false
+    }
+
+    Write-Host "[OK] real directory: $Path" -ForegroundColor Green
+    return $true
+}
+
 $ok = $true
 
 $ok = (Test-CommandPresent -Name "packwiz") -and $ok
@@ -55,6 +73,9 @@ $ok = (Test-CommandPresent -Name "git") -and $ok
 $repoConfig = Join-Path $repoRoot "config"
 $repoKubejs = Join-Path $repoRoot "kubejs"
 $repoMods = Join-Path $repoRoot "mods"
+$prismInstanceCfg = Join-Path $prismMinecraftDir "..\instance.cfg"
+$prismBootstrapJar = Join-Path $prismMinecraftDir "packwiz-installer-bootstrap.jar"
+$prismModsDir = Join-Path $prismMinecraftDir "mods"
 
 foreach ($p in @($repoConfig, $repoKubejs, $repoMods, $serverDir)) {
     if (Test-Path $p) {
@@ -68,7 +89,28 @@ foreach ($p in @($repoConfig, $repoKubejs, $repoMods, $serverDir)) {
 
 $ok = (Test-LinkTarget -Path (Join-Path $prismMinecraftDir "config") -ExpectedTarget $repoConfig) -and $ok
 $ok = (Test-LinkTarget -Path (Join-Path $prismMinecraftDir "kubejs") -ExpectedTarget $repoKubejs) -and $ok
-$ok = (Test-LinkTarget -Path (Join-Path $prismMinecraftDir "mods") -ExpectedTarget $repoMods) -and $ok
+$ok = (Test-RealDirectory -Path $prismModsDir) -and $ok
+
+if (Test-Path $prismInstanceCfg) {
+    $cfg = Get-Content $prismInstanceCfg -Raw
+    if ($cfg -match 'OverrideCommands=True' -and $cfg -match 'prism-packwiz-bootstrap\.ps1') {
+        Write-Host "[OK] Prism prelaunch bootstrap configured" -ForegroundColor Green
+    }
+    else {
+        Write-Host "[ERR] Prism prelaunch bootstrap not configured" -ForegroundColor Red
+        $ok = $false
+    }
+} else {
+    Write-Host "[ERR] missing Prism instance.cfg: $prismInstanceCfg" -ForegroundColor Red
+    $ok = $false
+}
+
+if (Test-Path $prismBootstrapJar) {
+    Write-Host "[OK] Prism bootstrap jar exists: $prismBootstrapJar" -ForegroundColor Green
+} else {
+    Write-Host "[ERR] missing Prism bootstrap jar: $prismBootstrapJar" -ForegroundColor Red
+    $ok = $false
+}
 
 $ok = (Test-LinkTarget -Path (Join-Path $serverDir "config") -ExpectedTarget $repoConfig) -and $ok
 $ok = (Test-LinkTarget -Path (Join-Path $serverDir "kubejs") -ExpectedTarget $repoKubejs) -and $ok
