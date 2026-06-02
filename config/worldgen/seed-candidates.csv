@@ -1,0 +1,3 @@
+seed,slug,source,biomeFocus,status,notes
+123456789,tectonic-lithosphere-blend,cubiomes-manual,continents-mountains,candidate,initial baseline
+-987654321,amplified-biomes-test,cubiomes-manual,amplified-diversity,candidate,check spawn ring quality

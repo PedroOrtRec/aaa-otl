@@ -1,0 +1,3 @@
+"timestamp","seed","slug","source","status","bootSuccess","startupSeconds","logMarkerFound","reportNotes"
+"2026-06-02T18:52:17","123456789","tectonic-lithosphere-blend","cubiomes-manual","candidate","False","","False","dry-run"
+"2026-06-02T18:52:17","-987654321","amplified-biomes-test","cubiomes-manual","candidate","False","","False","dry-run"

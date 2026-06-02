@@ -1,0 +1,13 @@
+name = "An Awesome Adventure - Ode to Leonor"
+author = "PrKiyo"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "81d8c839d4b0cc914fd5e70a9891285f82a189dabd44b45d40d3d56911da3229"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"

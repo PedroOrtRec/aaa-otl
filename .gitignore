@@ -1,0 +1,6 @@
+.minecraft/
+    saves/
+    logs/
+    crash-reports/
+    usernamecache.json
+    usercache.json

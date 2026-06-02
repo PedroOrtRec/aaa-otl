@@ -1,0 +1,32 @@
+{
+	"version": 1,
+	"project": "aaa-otl",
+	"stack": {
+		"minecraft": "1.21.1",
+		"loader": "neoforge",
+		"loaderVersion": "21.1.233",
+		"packManager": "packwiz"
+	},
+	"paths": {
+		"repoRoot": "./",
+		"contextDir": ".github/.context",
+		"toolsServer": "../tools/server",
+		"toolsCubiomes": "../tools/cubiomes-viewer-win"
+	},
+	"scripts": {
+		"checkWorkflow": "./scripts/check-workflow.ps1",
+		"packwizRefresh": "./scripts/packwiz-refresh.ps1",
+		"startServerDev": "./scripts/start-server-dev.ps1",
+		"serverPregen": "../tools/server/run-pregen.ps1",
+		"evaluateSeeds": "./scripts/evaluate-seeds.ps1",
+		"newTerrainBranch": "./scripts/new-terrain-branch.ps1",
+		"searchContent": "./scripts/search-content.ps1",
+		"searchModrinth": "./scripts/search-modrinth.ps1",
+		"searchCurseForge": "./scripts/search-curseforge.ps1",
+		"searchGitHubSource": "./scripts/search-github-source.ps1"
+	},
+	"notes": [
+		"Prism and server consume shared state via symlinks.",
+		"Magallanes is external and treated as integration dependency."
+	]
+}

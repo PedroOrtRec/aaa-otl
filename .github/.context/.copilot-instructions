@@ -1,0 +1,37 @@
+# Copilot project instructions
+
+## Scope
+- Repository represents the full modpack project `An Awesome Adventure: Ode To Leonor`.
+- Treat Magallanes as external dependency contract, not in-repo implementation.
+
+## Priorities
+1. Keep packwiz metadata consistent (`pack.toml`, `index.toml`).
+2. Preserve symlink-based workflow for Prism and server.
+3. Prefer script automation over manual repeated shell steps.
+4. Update `.github/.context` docs when workflow changes.
+
+## Script rules
+- Do not use unsupported packwiz subcommands.
+- When syncing server mods from repository mods, avoid obvious client-only jars.
+- Keep scripts PowerShell-first for Windows dev environment.
+
+## Documentation rules
+- Use `.github/.context/specs` for operational runbooks.
+- Use `.github/.context/adr` for architecture decisions.
+- Keep docs short, concrete, and command-oriented.
+
+## Git workflow rules
+- Branch and commit conventions are defined in:
+	- `.github/.context/specs/git-branch-and-commit-convention.md`
+	- `.github/.context/skills/git-workflow/SKILL.md`
+- Default branch flow: work branch -> `dev-pack` -> `main`.
+
+## Cubiomes workflow rules
+- Seed pipeline is defined in `.github/.context/specs/cubiomes-seed-workflow.md`.
+- Candidate seeds are tracked in `config/worldgen/seed-candidates.csv`.
+- Use `scripts/evaluate-seeds.ps1` before promoting terrain branches.
+
+## Content discovery rules
+- Discovery workflow is defined in `.github/.context/specs/content-discovery-workflow.md`.
+- Prefer `scripts/search-content.ps1` for first pass discovery.
+- Use `scripts/search-github-source.ps1` when source links are missing or unclear.
