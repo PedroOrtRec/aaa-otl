@@ -22,7 +22,7 @@ hash = "595046904707f120e393bcfd061a3e5f9a4d4d746e3dd615c4fd93b64cbba5ed"
 
 [[files]]
 file = ".github/.context/mod-list.md"
-hash = "768644de5cdd9b99806dd152f7df33f3a84b505c1a0bf4969622a4b042a4223a"
+hash = "3f0dc004101e2f30440e2e7ea04a7c286c314df977e1b77c44fc5d4b4c86eda7"
 
 [[files]]
 file = ".github/.context/roadmap.md"
@@ -118,7 +118,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "96bcf88b2b8ec4d37a95b9c6353ef2c74e6a17af9ebf7f06a30a357b33d6d756"
+hash = "31a6c22d05f33bd7a704cb76346f22bf6ac70cc1fad9da2ff0c380cec1cbcba2"
 
 [[files]]
 file = "config/krypton_fnp.yaml"
@@ -162,7 +162,7 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
+hash = "445a55bccce87dd8467f3265d1572827e8778e873e3bb70290adf0bb8a811e96"
 
 [[files]]
 file = "config/spark/config.json"
@@ -257,6 +257,11 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "datapacks/dynamic-lights.pw.toml"
+hash = "a2ac62be77e2979f98db823fd904bf959f63fc744e4f298370c14289a573e5bd"
+metafile = true
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -273,6 +278,10 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/config/probe-settings.json"
+hash = "735599ec2db216a8fd145d32b565d990936fbb9bcc1aa10225cc065280f5611b"
+
+[[files]]
 file = "kubejs/config/web_server.json"
 hash = "c86762059c51d3fef28b6b251609e5b3de1cbceaa3bcacee74326fd30018e2ca"
 
@@ -287,6 +296,16 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 [[files]]
 file = "mods/badpackets.pw.toml"
 hash = "e53392cab6393798f95c4ad012dcbd9a5a55d02ef2861ac0c23bee972686dddc"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
 metafile = true
 
 [[files]]
@@ -390,8 +409,81 @@ hash = "ac287f392613eddfa285620dcecb3fea25ee6232a201009cde5c5511b6a39fb9"
 metafile = true
 
 [[files]]
+file = "mods/yacl.pw.toml"
+hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+metafile = true
+
+[[files]]
+file = "reports/content-review-dynamic-lights-20260603-004548.md"
+hash = "16bb8bd6c7bff9381194865b4177bf1bb0e711439ec84ae5d9402d7b5e7ab699"
+
+[[files]]
+file = "reports/content-review-photon-shader-20260603-004426.md"
+hash = "1d5b10856b4b71c2b2ac215561e96dc6a0faf15dba2f3c8fda7ad29b63fe8fd0"
+
+[[files]]
+file = "reports/mod-review-c2me-neoforge-20260603-002229.md"
+hash = "869833bb2d4783f09ef7547ce7f6ba07a2c5f4a57e590ecf39caeadda75a04be"
+
+[[files]]
+file = "reports/mod-review-cloth-config-20260603-003344.md"
+hash = "782178c9159359e04c91c8d017b44e2ed7246a892b7f60821cf9ed8dddc1b3f9"
+
+[[files]]
+file = "reports/mod-review-clumps-20260603-003340.md"
+hash = "10c329043a54f52e290aee62d0ad79d3f64fd1d9c989d5ae0469cce95f4fe722"
+
+[[files]]
+file = "reports/mod-review-continuity-20260603-003341.md"
+hash = "c561889fc9345dc7e3401fca8320b228bdc53961306907ccce74332e2a1890aa"
+
+[[files]]
+file = "reports/mod-review-dynamic-lights-20260603-003343.md"
+hash = "96871eb1e675506235d958df364cc65389263565460c154a0fa1b0af70a2e2ba"
+
+[[files]]
 file = "reports/mod-review-embeddium-20260602-204322.md"
 hash = "69ef1fcc6842cea585bab0bd4d604a6e513c40775057d07c246b01ecc8cfcca2"
+
+[[files]]
+file = "reports/mod-review-entity-model-features-20260603-003342.md"
+hash = "2b1f98cbc882a5fbb01893fc26760044049fadcce3dd1804548b8fa69f60d4ad"
+
+[[files]]
+file = "reports/mod-review-entitytexturefeatures-20260603-003342.md"
+hash = "1e87a7000bb21419682a9f0af69c37ca9c62cd4dbb690c9270e8c4506de91ec4"
+
+[[files]]
+file = "reports/mod-review-lambdynamiclights-20260603-003433.md"
+hash = "4d42cbe821d46134ca7f57dbf7449e12616d871948465daa4325b6323ea9591a"
+
+[[files]]
+file = "reports/mod-review-moreculling-20260603-003339.md"
+hash = "6c2cd8dbbe616d64fc4643729ef68b249a09df291b3d65c5245996c44d2aa195"
+
+[[files]]
+file = "reports/mod-review-obsidianui-20260603-003509.md"
+hash = "b55bb947a14ee3c2f48f180e927a2d311330747dd4687610405619350e43f752"
+
+[[files]]
+file = "reports/mod-review-optitritium-20260603-003948.md"
+hash = "416191d0a4eaf76a30ff84871856c22ee3c77b72d9cd48c20320c9dafe594787"
+
+[[files]]
+file = "reports/mod-review-ryoamiclights-20260603-003442.md"
+hash = "e16f446f67fb41b0efd00b497d93bb4d163237b0fd39b970854a7a5401fc2aad"
+
+[[files]]
+file = "reports/mod-review-sodium-dynamic-lights-20260603-003438.md"
+hash = "2e67a0254e6fc6e5e8432b3bb6c1c7740aef0514233a4c2a90df231ef5242d5e"
+
+[[files]]
+file = "reports/mod-review-sodium-options-api-20260603-003506.md"
+hash = "aa3bb61978b73aa6f369e179fa607c5e55cebc0a3b1864bc1699831425e95588"
+
+[[files]]
+file = "reports/mod-review-yacl-20260603-003345.md"
+hash = "82ff17e0632da9e54bd07f5af5b84982c164580f5e1b7eaacb9d859f715070a7"
 
 [[files]]
 file = "reports/performance-report-20260602-204236.md"
@@ -434,12 +526,16 @@ file = "scripts/prism-packwiz-bootstrap.ps1"
 hash = "a43a358db969c9c8271980c91b4dae7ddd7cf92fdd49a917baa0315b77903ced"
 
 [[files]]
+file = "scripts/review-content-candidate.ps1"
+hash = "fafdd0910bb4d8e3719b8fab4f9000375a4d37322ab6185593bac982e82d4438"
+
+[[files]]
 file = "scripts/review-mod-candidate.ps1"
 hash = "612ac5fa534cd41b485522df7cd1492879cc03b90fc72b795e21b17e51971b57"
 
 [[files]]
 file = "scripts/search-content.ps1"
-hash = "fbc024873e7e39ecf7e9f5346f6d6f2e47bde9701c64c2158007940433534307"
+hash = "f5605bc14aafa56682b74e6c3dba704d6109dab041a8997ebb86731c11cc85a2"
 
 [[files]]
 file = "scripts/search-curseforge.ps1"
@@ -468,3 +564,8 @@ hash = "bd0992edf8c8aec766fe9d852b8b922f06f567937518906f2f54c7837d7f4bdd"
 [[files]]
 file = "scripts/update-mod-list.ps1"
 hash = "0869f3885c8161820efc1a0c18ce960ed07b10c6f4fd2bedacbde03d218a199a"
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "e9112a2da03f65451c8c949331d71b92546bbd75ff78eac554d27f6c41e1ba29"
+metafile = true

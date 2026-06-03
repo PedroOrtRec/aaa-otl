@@ -1,6 +1,6 @@
 # mod-list
 
-Total mods: 21
+Total mods: 24
 
 ## performance
 | Name | Version | Author | Description |
@@ -31,4 +31,11 @@ Total mods: 21
 | Xaero's Minimap | xaerominimap-neoforge-1.21.1-25.3.13 | thexaero | Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help yo... |
 | Xaero's World Map | xaeroworldmap-neoforge-1.21.1-1.40.16 | thexaero | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. |
 
-Updated: 2026-06-02 22:04:56
+## uncategorized
+| Name | Version | Author | Description |
+|---|---|---|---|
+| Cloth Config API | cloth-config-15.0.140-neoforge | shedaniel | Configuration Library for Minecraft Mods |
+| Clumps | Clumps-neoforge-1.21.1-19.0.0.1 | jaredlll08 | Clumps XP orbs together to reduce lag |
+| YetAnotherConfigLib (YACL) | yet_another_config_lib_v3-3.8.2+1.21.1-neoforge | isxander | A builder-based configuration library for Minecraft! |
+
+Updated: 2026-06-03 00:52:29
