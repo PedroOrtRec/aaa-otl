@@ -118,7 +118,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "96e05ed357bc411a0b75ab9d96a2459cdba93fbabe765bb6b760ed71c17dc621"
+hash = "218aff6f5d4c36c5c8ea1bed46fe179a0d033029ccb59103404cf873c6da3c89"
 
 [[files]]
 file = "config/krypton_fnp.yaml"
@@ -294,6 +294,11 @@ hash = "e53392cab6393798f95c4ad012dcbd9a5a55d02ef2861ac0c23bee972686dddc"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "a98dd7f86518a0de7bb3451bee7c8e1d7cec1b7fe00d97504ce7afd7e715ae2d"
 metafile = true
@@ -355,7 +360,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithosphere.pw.toml"
-hash = "337093b94742d334ad349d4fbfe1b74a9b885784ac6d43432896b3dc527260a9"
+hash = "11a85efb818e9d16e4f1f664a4dd49fc9b82fe6b9d66cce958a6dd905cbf349c"
 metafile = true
 
 [[files]]
@@ -447,6 +452,10 @@ file = "scripts/prism-packwiz-bootstrap.ps1"
 hash = "a43a358db969c9c8271980c91b4dae7ddd7cf92fdd49a917baa0315b77903ced"
 
 [[files]]
+file = "scripts/push-packwiz-to-pregen.ps1"
+hash = "2519389318a023c1bfc12afd3d329b6897b825b047c097b836302ac50b1ef854"
+
+[[files]]
 file = "scripts/review-mod-candidate.ps1"
 hash = "612ac5fa534cd41b485522df7cd1492879cc03b90fc72b795e21b17e51971b57"
 
@@ -467,8 +476,16 @@ file = "scripts/search-modrinth.ps1"
 hash = "bb18f3569bc60c070cc41c9eba3f9897ab51b0429439007a1451ea3ce2ab9c15"
 
 [[files]]
+file = "scripts/send-chunky-4k.ps1"
+hash = "024198647b094b4f344e2d7614eedb76054d4c150bc3d143007d30b768c96e52"
+
+[[files]]
 file = "scripts/setup-prism-runtime.ps1"
 hash = "199eb140d5c62f8ae266f2ec64f307e992336d73f7b306b8a9da3b00e6d0f7a7"
+
+[[files]]
+file = "scripts/start-pregen-4k.ps1"
+hash = "a95dfe905f1a5eee666b3822a30bbb36d7c4df50947d80b97e8422d936e2bdda"
 
 [[files]]
 file = "scripts/start-server-dev.ps1"
