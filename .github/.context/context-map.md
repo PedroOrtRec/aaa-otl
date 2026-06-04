@@ -54,6 +54,7 @@
 - Architecture: `.github/.context/system-architecture.md`
 - Roadmap: `.github/.context/roadmap.md`
 - Workflow spec: `.github/.context/specs/dev-workflow.md`
+- Manual mod addition and sync spec: `.github/.context/specs/manual-mod-addition-and-sync.md`
 - Server allowlist/pregen spec: `.github/.context/specs/server-allowlist-pregen-profiles.md`
 - Cubiomes seed workflow spec: `.github/.context/specs/cubiomes-seed-workflow.md`
 - Content discovery spec: `.github/.context/specs/content-discovery-workflow.md`

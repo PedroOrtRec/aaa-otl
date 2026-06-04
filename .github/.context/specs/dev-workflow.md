@@ -17,6 +17,20 @@ Provide a repeatable local loop for editing and validating the modpack with mini
 3. Start server dev flow:
    - `powershell -ExecutionPolicy Bypass -File .\\scripts\\start-server-dev.ps1`
 
+## Manual mod addition flow
+When adding a new mod by editing `mods/*.pw.toml` directly:
+1. Refresh packwiz state.
+2. Regenerate the installed mod inventory.
+3. Sync the pregen server mods.
+4. Launch Prism so the runtime bootstrap materializes the client mods.
+
+Recommended commands:
+- `powershell -ExecutionPolicy Bypass -File .\\scripts\\packwiz-refresh.ps1`
+- `powershell -ExecutionPolicy Bypass -File .\\scripts\\update-mod-list.ps1`
+- `powershell -ExecutionPolicy Bypass -File .\\scripts\\sync-server-mods.ps1`
+- `powershell -ExecutionPolicy Bypass -File .\\scripts\\setup-prism-runtime.ps1` (one-time)
+- `powershell -ExecutionPolicy Bypass -File .\\scripts\\prism-packwiz-bootstrap.ps1` (launch bootstrap)
+
 ## Server pregen behavior
 `run-pregen.ps1` performs:
 1. Optional world reset (`world/` removal).
