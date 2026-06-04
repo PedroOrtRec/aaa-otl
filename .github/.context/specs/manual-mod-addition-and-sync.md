@@ -14,14 +14,20 @@ Document the manual flow for adding a new mod to the pack and propagating it to 
 - Server mods are synchronized separately from repository metadata.
 
 ## Manual add flow
-1. Add or update the mod metadata in `mods/<mod>.pw.toml`.
-2. Refresh packwiz state:
+1. Add the mod with packwiz, using the source that matches the project:
+   - Modrinth: `packwiz modrinth add [URL|slug|search]`
+   - CurseForge: `packwiz curseforge add [URL|slug|search]`
+   - GitHub releases: `packwiz github add [URL|slug]`
+   - Direct download: `packwiz url add [name] [url]`
+   - Use `-y` when you want packwiz to accept the default prompt choices non-interactively.
+2. Confirm the new or updated metadata in `mods/<mod>.pw.toml`.
+3. Refresh packwiz state:
    - `powershell -ExecutionPolicy Bypass -File .\\scripts\\packwiz-refresh.ps1`
-3. Regenerate the installed mod inventory used by the docs and reviews:
+4. Regenerate the installed mod inventory used by the docs and reviews:
    - `powershell -ExecutionPolicy Bypass -File .\\scripts\\update-mod-list.ps1`
-4. Sync the pregen server mods from repository metadata:
+5. Sync the pregen server mods from repository metadata:
    - `powershell -ExecutionPolicy Bypass -File .\\scripts\\sync-server-mods.ps1`
-5. Launch Prism Launcher or run the Prism preflight if you want to verify the runtime immediately:
+6. Launch Prism Launcher or run the Prism preflight if you want to verify the runtime immediately:
    - One-time setup, if needed: `powershell -ExecutionPolicy Bypass -File .\\scripts\\setup-prism-runtime.ps1`
    - Launch-time bootstrap: `powershell -ExecutionPolicy Bypass -File .\\scripts\\prism-packwiz-bootstrap.ps1`
 
