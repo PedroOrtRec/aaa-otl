@@ -38,4 +38,4 @@ Total mods: 24
 | Clumps | Clumps-neoforge-1.21.1-19.0.0.1 | jaredlll08 | Clumps XP orbs together to reduce lag |
 | YetAnotherConfigLib (YACL) | yet_another_config_lib_v3-3.8.2+1.21.1-neoforge | isxander | A builder-based configuration library for Minecraft! |
 
-Updated: 2026-06-03 00:52:29
+Updated: 2026-06-05 00:55:14

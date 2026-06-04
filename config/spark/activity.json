@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Shokoshokao",
+      "uniqueId": "1670b38d-f9fd-4834-ba5c-1b9a7dd7e228"
+    },
+    "time": 1780614439935,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ic7zsOLxfI"
+    }
+  }
+]

@@ -14,7 +14,23 @@ hash = "fa932eb3bf3949ff846da826c661e43cab69edb87468b92b8722f910d8f1b1cc"
 
 [[files]]
 file = ".github/.context/context-map.md"
-hash = "1970f71ecd06b11e437bce84df4fecb4b4250d29fe5b89fca5b4f793fa98495f"
+hash = "20b27d4db51e7a9a69ca27f2d148c5dab114a015578b7b4ba12d1175b2a22da3"
+
+[[files]]
+file = ".github/.context/external-server/foxomy-server-profile.md"
+hash = "00b95d98f000f27da43be9189ca850f5498311edcadf12c4572d6a1be6134195"
+
+[[files]]
+file = ".github/.context/external-server/manual-copilot-external-server-runbook.md"
+hash = "2baa710e61a58a5022d55264c5089ea8a1a9c4b283c63f21d0ee3835e4394344"
+
+[[files]]
+file = ".github/.context/external-server/pterodactyl-startup-template.md"
+hash = "9defae248854d036ef16f645fe722813af268a540012a52c7b67327bf71e8434"
+
+[[files]]
+file = ".github/.context/external-server/startup-packwiz.sh"
+hash = "47de7e4840c8bfbcfcbf92f516e786e3980b0184648c5bd121b341596f4299cd"
 
 [[files]]
 file = ".github/.context/mcp-config.json"
@@ -22,7 +38,7 @@ hash = "595046904707f120e393bcfd061a3e5f9a4d4d746e3dd615c4fd93b64cbba5ed"
 
 [[files]]
 file = ".github/.context/mod-list.md"
-hash = "3f0dc004101e2f30440e2e7ea04a7c286c314df977e1b77c44fc5d4b4c86eda7"
+hash = "6762bd80d762741d1218bc91a4d736238cef6882670af9d5f092924294f5e1cf"
 
 [[files]]
 file = ".github/.context/roadmap.md"
@@ -54,15 +70,23 @@ hash = "c227ad4cdd60f43e0c1bd2dd07519d61d30379554d5501cba541edcfa5372d9e"
 
 [[files]]
 file = ".github/.context/specs/dev-workflow.md"
-hash = "2ca5ed703e8f74e7c3bfb74deeedbe8895273f046064fb11ebfe2aa0188e8b5f"
+hash = "60e690542aea0c9bb296a9ee942c3b52287872f13f266d9c4e55758b5f87717f"
 
 [[files]]
 file = ".github/.context/specs/git-branch-and-commit-convention.md"
 hash = "dd6dd87d7356daecf76aa1eff724690fd88bb61f4aaa3e6944205e5fbec6572f"
 
 [[files]]
+file = ".github/.context/specs/manual-mod-addition-and-sync.md"
+hash = "eb96068798c1c5ef0cfa54efb2c485d304c1c69afbf3a8ccb1ddfc444a6ecb80"
+
+[[files]]
 file = ".github/.context/specs/mod-compatibility-review.md"
 hash = "e54b6aed8f5d7623124ce9cdac969ff270176cf3de30817b3b1ea3dbd5ee399d"
+
+[[files]]
+file = ".github/.context/specs/performance-baseline-testing.md"
+hash = "3fef11e8f342d1bff48e7c6b32d0fe46431cd60bfc53acdb9fb5281f1900ef93"
 
 [[files]]
 file = ".github/.context/specs/performance-monitoring-workflow.md"
@@ -82,11 +106,15 @@ hash = "703ef45b9d5601073b49b6a469ea88fc7c7a6411e3cd3baeddc08b5450470f42"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "ac3fef87c4653a44be476c802d4db6a22ffba435d8aaf7e5ef2a0a49f3970d4b"
+hash = "7479f2b50ffbf49ae92a8a2ae2304eeb7639c0944fab3e3f8a597170b2e0041d"
 
 [[files]]
 file = "config/better-advanced-tooltips-client.toml"
-hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
+hash = "167486d8ac09ab9959c9b98c97c169365eaa9e5be0488b9ff8e6a04695d456e0"
+
+[[files]]
+file = "config/chunky/tasks/minecraft/overworld.properties"
+hash = "cbd6b9a7f5824b1d447f82ddca773e38873e09b5a0157da07a5b8c647a584fb7"
 
 [[files]]
 file = "config/entityculling.json"
@@ -94,7 +122,7 @@ hash = "da13c5bbd33e17050270f49fd151443f7aa8d16115c038c8d047c8844615b4d8"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
-hash = "1356f9d52b2dcb2afa5a593e53c286d9c1c3778a6f8b1cf761953b185b7dce78"
+hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
 
 [[files]]
 file = "config/fml.toml"
@@ -106,7 +134,7 @@ hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "e521baea8cde5a275585c7063fa3272b79a303c73e4efb1d509a638914e1299e"
+hash = "f6b6ee54d5a8f0caf59ffb15330ad89c7628c127a7f7c7ca247175e308868b53"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -118,7 +146,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "31a6c22d05f33bd7a704cb76346f22bf6ac70cc1fad9da2ff0c380cec1cbcba2"
+hash = "dd5037061ca07cb8ebd584080215f1c218674017b09fc3933cab146248c5358c"
 
 [[files]]
 file = "config/krypton_fnp.yaml"
@@ -130,11 +158,11 @@ hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
 
 [[files]]
 file = "config/mod-catalog/categories.json"
-hash = "6cee74575cf5f99c7eb80b8e3ac54217cf5623a03b231d8172d473e524a90172"
+hash = "73f37499d39ae10af74da3c85f9b3e627efa7dd9c04f048c0d5d59a3cdfc5e39"
 
 [[files]]
 file = "config/modernfix-common.toml"
-hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
+hash = "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -142,15 +170,15 @@ hash = "32bbaa6f573b612b92653fc2814365cd8aa423d39fcab4fa5dcfcb5f31121874"
 
 [[files]]
 file = "config/neoforge-client.toml"
-hash = "d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0"
+hash = "a5f0eb38f8daf8574f7672a8393a0ab5c668d6ec6e7ae43fc8669e928786929d"
 
 [[files]]
 file = "config/neoforge-common.toml"
-hash = "fe878a2717a145cd890621eac5b3be1e1fd656f7ff9abc6e8d53f670d37474c4"
+hash = "e6f7578cf8c11ade0a47e36bf3863fc96f84cdf4bb679c0fceabb1e8a2f42399"
 
 [[files]]
 file = "config/neoforge-server.toml"
-hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
+hash = "0f1415d7fef6d7f6194275501d500b633dd3310aea40d64128edd1b096372f60"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -170,11 +198,11 @@ hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 
 [[files]]
 file = "config/spark/tmp-client/about.txt"
-hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
+hash = "8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a"
 
 [[files]]
 file = "config/spark/tmp/about.txt"
-hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
+hash = "8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a"
 
 [[files]]
 file = "config/transition.json"
@@ -186,7 +214,7 @@ hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
 
 [[files]]
 file = "config/worldgen/seed-candidates.csv"
-hash = "68e314daf2a412d6151bbb793478e832b356683d807f62c8adcc9e3b5cabd388"
+hash = "46b9dd354e35c617f8cf21210d05cdab53e3f831718d7ec48a9259ad9d1cc5c0"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
@@ -250,15 +278,19 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "config/xaerohud.txt"
-hash = "58c9270f258d0b224bb7d0f7c927544d5fbe5f1b8027c820e1e14ecbf48fb88c"
+hash = "cece60604b8de5e978141c981c1ed85227c8f30697a513869012b06dd15fcf02"
 
 [[files]]
 file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/yacl.json5"
+hash = "8a201ac6b572e9b56ea1de77e13a8d6c8fab64c89727649346e22e6e27413577"
+
+[[files]]
 file = "datapacks/dynamic-lights.pw.toml"
-hash = "a2ac62be77e2979f98db823fd904bf959f63fc744e4f298370c14289a573e5bd"
+hash = "f2739a635278159f629f4d2d16930c4ae7b5b9b5059b5d26572fea256480b756"
 metafile = true
 
 [[files]]
@@ -300,12 +332,12 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+hash = "c78021d923ba3e0dd2a4060b4fa4addd343974313cf3278f9e36359e903f442c"
 metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "2acaff560bbda5741538528a2967355ec86a8f7564adba0b2316989c66892374"
+hash = "910f09506aef1e066631306ab1e9860350e1c1a22d0820abc506df3ec7c54651"
 metafile = true
 
 [[files]]
@@ -410,8 +442,16 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+hash = "832ee01bb7981b4b3eb298e9a6b0ab1433bd55f958db84d0beb62d318d33968c"
 metafile = true
+
+[[files]]
+file = "reports/chunky-progress-20260603-144904.md"
+hash = "60d78dc0a3e76d0713b3c2c6e396e78e13e1030738f22b2a1770c0b04cb5c4b5"
+
+[[files]]
+file = "reports/chunky-progress-20260603-150634.md"
+hash = "9eb587092261f29dbf6b4fc2668d5bc850101e43a6cfd45df8b8c6d5ae8ef9f4"
 
 [[files]]
 file = "reports/content-review-dynamic-lights-20260603-004548.md"
@@ -471,7 +511,7 @@ hash = "416191d0a4eaf76a30ff84871856c22ee3c77b72d9cd48c20320c9dafe594787"
 
 [[files]]
 file = "reports/mod-review-ryoamiclights-20260603-003442.md"
-hash = "e16f446f67fb41b0efd00b497d93bb4d163237b0fd39b970854a7a5401fc2aad"
+hash = "f55f3261e8b0c3ca89c558afef2c51008a5786897af56c3c7e8bd3d3321840ba"
 
 [[files]]
 file = "reports/mod-review-sodium-dynamic-lights-20260603-003438.md"
@@ -551,7 +591,7 @@ hash = "bb18f3569bc60c070cc41c9eba3f9897ab51b0429439007a1451ea3ce2ab9c15"
 
 [[files]]
 file = "scripts/setup-prism-runtime.ps1"
-hash = "199eb140d5c62f8ae266f2ec64f307e992336d73f7b306b8a9da3b00e6d0f7a7"
+hash = "2605deda0a16fee74ce2142f33594dbda8582a6366b05323b36b9532fdad750a"
 
 [[files]]
 file = "scripts/start-server-dev.ps1"
@@ -567,5 +607,5 @@ hash = "0869f3885c8161820efc1a0c18ce960ed07b10c6f4fd2bedacbde03d218a199a"
 
 [[files]]
 file = "shaderpacks/photon-shader.pw.toml"
-hash = "e9112a2da03f65451c8c949331d71b92546bbd75ff78eac554d27f6c41e1ba29"
+hash = "d6f6318e79d7bb34ead5fb36f275c1be329929b98b26bc1bbeff089c39819991"
 metafile = true

@@ -48,20 +48,56 @@ if (-not (Test-Path $instanceCfg)) {
     throw "instance.cfg not found: $instanceCfg"
 }
 
-$instanceLines = Get-Content -Path $instanceCfg
-$preLaunchCommand = 'powershell -ExecutionPolicy Bypass -File "{0}"' -f $preLaunchScript
+$instanceLines = [System.Collections.Generic.List[string]](Get-Content -Path $instanceCfg)
+$preLaunchScriptForCfg = $preLaunchScript -replace '\\', '/'
+$preLaunchCommand = 'powershell -ExecutionPolicy Bypass -File "{0}"' -f $preLaunchScriptForCfg
 
-$normalizedLines = New-Object System.Collections.Generic.List[string]
-foreach ($line in $instanceLines) {
-    if ($line -notmatch '^(OverrideCommands=|PreLaunchCommand=)') {
-        $normalizedLines.Add($line)
+# Prism expects keys in [General]. Insert or replace there to avoid ignored values.
+$generalStart = $instanceLines.IndexOf('[General]')
+if ($generalStart -lt 0) {
+    throw "[General] section not found in instance.cfg"
+}
+
+$nextSection = $instanceLines.Count
+for ($i = $generalStart + 1; $i -lt $instanceLines.Count; $i++) {
+    if ($instanceLines[$i] -match '^\[') {
+        $nextSection = $i
+        break
     }
 }
 
-$normalizedLines.Add('OverrideCommands=True')
-$normalizedLines.Add('PreLaunchCommand=' + $preLaunchCommand)
+$overrideFound = $false
+$preLaunchFound = $false
+for ($i = $generalStart + 1; $i -lt $nextSection; $i++) {
+    if ($instanceLines[$i] -match '^OverrideCommands=') {
+        $instanceLines[$i] = 'OverrideCommands=True'
+        $overrideFound = $true
+    }
+    elseif ($instanceLines[$i] -match '^PreLaunchCommand=') {
+        $instanceLines[$i] = 'PreLaunchCommand=' + $preLaunchCommand
+        $preLaunchFound = $true
+    }
+}
 
-Set-Content -Path $instanceCfg -Value $normalizedLines
+$insertIndex = $nextSection
+if (-not $overrideFound) {
+    $instanceLines.Insert($insertIndex, 'OverrideCommands=True')
+    $insertIndex++
+}
+if (-not $preLaunchFound) {
+    $instanceLines.Insert($insertIndex, 'PreLaunchCommand=' + $preLaunchCommand)
+}
+
+# Remove duplicated keys outside [General] (legacy bad writes)
+for ($i = $instanceLines.Count - 1; $i -ge 0; $i--) {
+    if ($i -le $generalStart -or $i -ge $nextSection) {
+        if ($instanceLines[$i] -match '^(OverrideCommands=|PreLaunchCommand=)') {
+            $instanceLines.RemoveAt($i)
+        }
+    }
+}
+
+Set-Content -Path $instanceCfg -Value $instanceLines
 
 Write-Host "Prism runtime configured." -ForegroundColor Green
 Write-Host "Bootstrap jar: $bootstrapJar"
