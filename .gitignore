@@ -4,3 +4,6 @@
     crash-reports/
     usernamecache.json
     usercache.json
+
+# Confidential external server context
+.github/.context/external-server/
