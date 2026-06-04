@@ -1,9 +1,13 @@
-param()
+param(
+	[int]$Port = 8090,
+	[ValidateSet("server", "client", "both")]
+	[string]$Side = "server"
+)
 
 $ErrorActionPreference = "Stop"
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$serverScript = Resolve-Path (Join-Path $repoRoot "../tools/server/run-pregen.ps1") -ErrorAction Stop
+$syncScript = Resolve-Path (Join-Path $repoRoot "scripts/push-packwiz-to-pregen.ps1") -ErrorAction Stop
 
-Write-Host "Syncing server mods only (no world reset, no launch)..." -ForegroundColor Cyan
-& $serverScript -SkipWorldReset -NoLaunch
+Write-Host "Syncing server mods via packwiz bootstrap (metadata-driven side filtering)..." -ForegroundColor Cyan
+& $syncScript -RepoRoot $repoRoot -Port $Port -Side $Side

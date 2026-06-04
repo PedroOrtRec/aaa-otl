@@ -2,7 +2,9 @@ param(
     [string]$RepoRoot,
     [string]$ServerDir,
     [int]$Port = 8090,
-    [string]$BootstrapJarName = "packwiz-installer-bootstrap.jar"
+    [string]$BootstrapJarName = "packwiz-installer-bootstrap.jar",
+    [ValidateSet("server", "client", "both")]
+    [string]$Side = "server"
 )
 
 $ErrorActionPreference = "Stop"
@@ -78,6 +80,7 @@ function Wait-PackwizServe {
 Write-Host "Syncing pregen server with packwiz..." -ForegroundColor Cyan
 Write-Host "Repo:   $RepoRoot"
 Write-Host "Server: $ServerDir"
+Write-Host "Side:   $Side"
 
 Ensure-BootstrapJar -TargetJar $bootstrapJar -FallbackJar $prismBootstrap
 
@@ -86,7 +89,7 @@ Push-Location $ServerDir
 try {
     $serveProcess = Wait-PackwizServe -WorkingDir $RepoRoot -ListenPort $Port -ProbeUrl $packUrl
     $javaCmd = (Get-Command java -ErrorAction Stop).Source
-    & $javaCmd -jar $bootstrapJar $packUrl
+    & $javaCmd -jar $bootstrapJar -g -s $Side $packUrl
 }
 finally {
     Pop-Location
