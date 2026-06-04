@@ -1,3 +1,6 @@
 mods/*.pw.toml text eol=lf
 index.toml text eol=lf
 pack.toml text eol=lf
+config/** text eol=lf
+kubejs/** text eol=lf
+datapacks/** text eol=lf
