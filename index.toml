@@ -224,7 +224,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "e4919e3c737a900227d9a1f888786aeb1a5ca6ba000bba78e0a84d664cc2f702"
+hash = "56cb2e8e396bf26b56ffe0a44c794984435c35e15959ff46539bb8aead85ad77"
 metafile = true
 
 [[files]]
@@ -284,7 +284,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/lithosphere.pw.toml"
-hash = "11a85efb818e9d16e4f1f664a4dd49fc9b82fe6b9d66cce958a6dd905cbf349c"
+hash = "337093b94742d334ad349d4fbfe1b74a9b885784ac6d43432896b3dc527260a9"
 metafile = true
 
 [[files]]
@@ -319,7 +319,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/still-life.pw.toml"
-hash = "094c337bd4addc2436fdcf89bc8bac2a9b50c8abd6925b1bbd53e8fce126cd98"
+hash = "10abaaacef70467dc09b62aa2f28cc2242be181d3cd9f585d1c0383d38eb87b8"
 metafile = true
 
 [[files]]
