@@ -71,6 +71,9 @@ cp -f "$LITHOSPHERE_SRC" "$LITHOSPHERE_ZIP"
 echo "[datapacks] Installed: $(basename "$STILL_LIFE_ZIP") from $(basename "$STILL_LIFE_SRC")"
 echo "[datapacks] Installed: $(basename "$LITHOSPHERE_ZIP") from $(basename "$LITHOSPHERE_SRC")"
 
+# Avoid duplicate loading through Global Packs + world datapacks.
+rm -f "$PACK_SOURCE_DIR"/still-life*.zip "$PACK_SOURCE_DIR"/still_life*.zip "$PACK_SOURCE_DIR"/lithosphere*.zip || true
+
 echo "[server] Starting NeoForge server..."
 UNIX_ARGS_FILE="libraries/net/neoforged/neoforge/${NEOFORGE_VERSION}/unix_args.txt"
 if [ -f "$UNIX_ARGS_FILE" ]; then
