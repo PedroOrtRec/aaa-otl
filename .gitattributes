@@ -4,3 +4,4 @@ pack.toml text eol=lf
 config/** text eol=lf
 kubejs/** text eol=lf
 datapacks/** text eol=lf
+scripts/*.sh text eol=lf
