@@ -32,3 +32,8 @@ Total mods: 21
 | Xaero's World Map | xaeroworldmap-neoforge-1.21.1-1.40.16 | thexaero | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. |
 
 Updated: 2026-06-02 22:04:56
+
+## operational-notes
+- Distant Horizons is temporarily excluded from dedicated server generation/pregen runs to avoid unnecessary resource usage.
+- Current pack metadata setting for this temporary policy: `side = "client"` in `mods/distanthorizons.pw.toml`.
+- Target policy after generation-focused testing ends: restore Distant Horizons to `side = "both"`.
