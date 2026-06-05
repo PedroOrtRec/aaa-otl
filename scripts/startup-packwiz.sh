@@ -57,11 +57,18 @@ if [ -z "$LITHOSPHERE_SRC" ]; then
   exit 1
 fi
 
-cp -f "$STILL_LIFE_SRC" "$WORLD_DATAPACKS_DIR/"
-cp -f "$LITHOSPHERE_SRC" "$WORLD_DATAPACKS_DIR/"
+# Datapack repository only recognizes directories or .zip files.
+# These packs are distributed as .jar archives, so we store them as .zip in world/datapacks.
+rm -f "$WORLD_DATAPACKS_DIR"/still-life*.jar "$WORLD_DATAPACKS_DIR"/lithosphere*.jar || true
 
-echo "[datapacks] Copied: $(basename "$STILL_LIFE_SRC")"
-echo "[datapacks] Copied: $(basename "$LITHOSPHERE_SRC")"
+STILL_LIFE_ZIP="$WORLD_DATAPACKS_DIR/still-life.zip"
+LITHOSPHERE_ZIP="$WORLD_DATAPACKS_DIR/lithosphere.zip"
+
+cp -f "$STILL_LIFE_SRC" "$STILL_LIFE_ZIP"
+cp -f "$LITHOSPHERE_SRC" "$LITHOSPHERE_ZIP"
+
+echo "[datapacks] Installed: $(basename "$STILL_LIFE_ZIP") from $(basename "$STILL_LIFE_SRC")"
+echo "[datapacks] Installed: $(basename "$LITHOSPHERE_ZIP") from $(basename "$LITHOSPHERE_SRC")"
 
 echo "[server] Starting NeoForge server..."
 UNIX_ARGS_FILE="libraries/net/neoforged/neoforge/${NEOFORGE_VERSION}/unix_args.txt"
