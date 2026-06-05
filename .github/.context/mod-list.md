@@ -1,6 +1,6 @@
 # mod-list
 
-Total mods: 24
+Total mods: 28
 
 ## performance
 | Name | Version | Author | Description |
@@ -34,8 +34,12 @@ Total mods: 24
 ## uncategorized
 | Name | Version | Author | Description |
 |---|---|---|---|
+| [EMF] Entity Model Features | entity_model_features-3.2.4-1.21-neoforge | Traben | EMF is an, OptiFine format, Custom Entity Model replacement mod available for Fabric and Forge. |
+| [ETF] Entity Texture Features | entity_texture_features_1.21-neoforge-7.1 | Traben | Emissive, Random & Custom texture support for entities in resourcepacks just like Optifine but for Fabric |
 | Cloth Config API | cloth-config-15.0.140-neoforge | shedaniel | Configuration Library for Minecraft Mods |
 | Clumps | Clumps-neoforge-1.21.1-19.0.0.1 | jaredlll08 | Clumps XP orbs together to reduce lag |
+| Fancy World Animations | fwa+1.21.1-neoforge-1.2.24 | maDU59_ | This mod adds animations to a bunch of interactable blocks like doors, trapdoors, levers, buttons, jukeboxes but also swinging lanterns a... |
+| Punchy! | punchy-2.5.5b-neoforge-1.21.1 | PunchyDevGuy | A mod that adds various first person animations and visible hands with held items! |
 | YetAnotherConfigLib (YACL) | yet_another_config_lib_v3-3.8.2+1.21.1-neoforge | isxander | A builder-based configuration library for Minecraft! |
 
-Updated: 2026-06-05 00:55:14
+Updated: 2026-06-05 02:37:53

@@ -1,0 +1,46 @@
+﻿[
+    {
+        "query":  "Fresh Animations Extensions",
+        "found":  false
+    },
+    {
+        "query":  "Fresh Animations Player Extensions",
+        "found":  false
+    },
+    {
+        "query":  "Punchy",
+        "found":  true,
+        "picked_title":  "Punchy!",
+        "slug":  "punchy-fpa",
+        "author":  "PunchyDevGuy",
+        "client":  "required",
+        "server":  "unsupported",
+        "categories":  "decoration,equipment,fabric,forge,game-mechanics,neoforge",
+        "project_url":  "https://modrinth.com/mod/punchy-fpa",
+        "neo1211_version":  "2.5.5b",
+        "description":  "A mod that adds various first person animations and visible hands with held items!",
+        "dependencies":  [
+
+                         ]
+    },
+    {
+        "query":  "Hyper Punchy",
+        "found":  false
+    },
+    {
+        "query":  "Fancy World Animations",
+        "found":  true,
+        "picked_title":  "Fancy World Animations",
+        "slug":  "fwa",
+        "author":  "maDU59_",
+        "client":  "required",
+        "server":  "unsupported",
+        "categories":  "decoration,fabric,forge,game-mechanics,neoforge,quilt",
+        "project_url":  "https://modrinth.com/mod/fwa",
+        "neo1211_version":  "1.2.24",
+        "description":  "This mod adds animations to a bunch of interactable blocks like doors, trapdoors, levers, buttons, jukeboxes but also swinging lanterns and much more! It makes everything smooth",
+        "dependencies":  [
+
+                         ]
+    }
+]

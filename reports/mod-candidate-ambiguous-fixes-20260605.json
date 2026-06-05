@@ -1,0 +1,34 @@
+﻿[
+    {
+        "slug":  "appleskin",
+        "title":  "AppleSkin",
+        "author":  null,
+        "description":  "Food/hunger-related HUD improvements",
+        "neo1211_version":  "3.0.9+mc1.21",
+        "project_url":  "https://modrinth.com/mod/appleskin"
+    },
+    {
+        "slug":  "personality!",
+        "title":  "Personality",
+        "author":  null,
+        "description":  "Introduces sitting, crawling, and various \u0027gamefeel\u0027 enhancements!",
+        "neo1211_version":  "5.0.2",
+        "project_url":  "https://modrinth.com/mod/personality!"
+    },
+    {
+        "slug":  "immersive-weather-renewed",
+        "title":  "Immersive Weathering: Renewed",
+        "author":  null,
+        "description":  "This is a Port of the Immersive Weathering mod brought up to 1.21.1 for NeoForge \u0026 Fabric.",
+        "neo1211_version":  "V1.0.4-NeoForge",
+        "project_url":  "https://modrinth.com/mod/immersive-weather-renewed"
+    },
+    {
+        "slug":  "falling-trees-physics",
+        "title":  "Falling Trees Physics",
+        "author":  null,
+        "description":  "Lets trees fall when you fell them using a physics library (Sable)",
+        "neo1211_version":  "1.10",
+        "project_url":  "https://modrinth.com/mod/falling-trees-physics"
+    }
+]
