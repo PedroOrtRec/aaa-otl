@@ -319,7 +319,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/still-life.pw.toml"
-hash = "8fe48fd7a237c12aeaa0bdfb7ac5efb0a7c93330ff9372385ca33c81ba64dbf6"
+hash = "8834df2fcfccca2569a1dff2309fb37aca70813bb63444106f87bbb61dbf9195"
 metafile = true
 
 [[files]]
