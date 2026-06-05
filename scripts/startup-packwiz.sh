@@ -44,22 +44,23 @@ WORLD_DATAPACKS_DIR="/home/container/${LEVEL_NAME}/datapacks"
 echo "[datapacks] Syncing required terrain datapacks into ${WORLD_DATAPACKS_DIR}"
 mkdir -p "$WORLD_DATAPACKS_DIR"
 
-STILL_LIFE_SRC="$(find "$PACK_SOURCE_DIR" -maxdepth 1 -type f -name 'still-life*.jar' | head -n1 || true)"
-LITHOSPHERE_SRC="$(find "$PACK_SOURCE_DIR" -maxdepth 1 -type f -name 'lithosphere*.jar' | head -n1 || true)"
+STILL_LIFE_SRC="$(find "$PACK_SOURCE_DIR" -maxdepth 1 -type f \( -iname 'still-life*.jar' -o -iname 'still-life*.zip' -o -iname 'still_life*.jar' -o -iname 'still_life*.zip' \) | head -n1 || true)"
+LITHOSPHERE_SRC="$(find "$PACK_SOURCE_DIR" -maxdepth 1 -type f \( -iname 'lithosphere*.jar' -o -iname 'lithosphere*.zip' \) | head -n1 || true)"
 
 if [ -z "$STILL_LIFE_SRC" ]; then
-  echo "[datapacks] ERROR: still-life*.jar not found in ${PACK_SOURCE_DIR}"
+  echo "[datapacks] ERROR: Still Life archive (.jar/.zip) not found in ${PACK_SOURCE_DIR}"
   exit 1
 fi
 
 if [ -z "$LITHOSPHERE_SRC" ]; then
-  echo "[datapacks] ERROR: lithosphere*.jar not found in ${PACK_SOURCE_DIR}"
+  echo "[datapacks] ERROR: Lithosphere archive (.jar/.zip) not found in ${PACK_SOURCE_DIR}"
   exit 1
 fi
 
 # Datapack repository only recognizes directories or .zip files.
 # These packs are distributed as .jar archives, so we store them as .zip in world/datapacks.
-rm -f "$WORLD_DATAPACKS_DIR"/still-life*.jar "$WORLD_DATAPACKS_DIR"/lithosphere*.jar || true
+rm -f "$WORLD_DATAPACKS_DIR"/still-life*.jar "$WORLD_DATAPACKS_DIR"/still_life*.jar "$WORLD_DATAPACKS_DIR"/lithosphere*.jar || true
+rm -f "$WORLD_DATAPACKS_DIR"/still-life*.zip "$WORLD_DATAPACKS_DIR"/still_life*.zip "$WORLD_DATAPACKS_DIR"/lithosphere*.zip || true
 
 STILL_LIFE_ZIP="$WORLD_DATAPACKS_DIR/still-life.zip"
 LITHOSPHERE_ZIP="$WORLD_DATAPACKS_DIR/lithosphere.zip"
