@@ -1,0 +1,72 @@
+﻿[
+    {
+        "query":  "Fresh Animations Extensions",
+        "type":  "resourcepack",
+        "title":  "Fresh Animations: Extensions",
+        "slug":  "fresh-animations-extensions",
+        "author":  "FreshLX",
+        "description":  "A combination of offical extension packs for Fresh Animations",
+        "client":  "required",
+        "server":  "unsupported",
+        "version":  "1.9.1",
+        "versionId":  "GUxiXGXD",
+        "projectUrl":  "https://modrinth.com/resourcepack/fresh-animations-extensions",
+        "has1211":  true
+    },
+    {
+        "query":  "Fresh Animations Player Extension",
+        "type":  "resourcepack",
+        "title":  "Fresh Animations: Player Extension",
+        "slug":  "fa-player-extension",
+        "author":  "FreshLX",
+        "description":  "Animates players in Fresh Animations\u0027 style. An official FA extension.",
+        "client":  "required",
+        "server":  "unsupported",
+        "version":  "1.0.0",
+        "versionId":  "io7wLL8n",
+        "projectUrl":  "https://modrinth.com/resourcepack/fa-player-extension",
+        "has1211":  true
+    },
+    {
+        "query":  "Hyper Punchy",
+        "type":  "resourcepack",
+        "title":  "Hyper Punchy",
+        "slug":  "hyper-punchy",
+        "author":  "HamzTheModMaker",
+        "description":  "Hyper Punchy is a animation feature for punchy",
+        "client":  "required",
+        "server":  "unsupported",
+        "version":  "2.5",
+        "versionId":  "nJiwz3lJ",
+        "projectUrl":  "https://modrinth.com/resourcepack/hyper-punchy",
+        "has1211":  true
+    },
+    {
+        "query":  "Punchy",
+        "type":  "mod",
+        "title":  "Punchy!",
+        "slug":  "punchy-fpa",
+        "author":  "PunchyDevGuy",
+        "description":  "A mod that adds various first person animations and visible hands with held items!",
+        "client":  "required",
+        "server":  "unsupported",
+        "version":  "2.5.5b",
+        "versionId":  "xhYuu96b",
+        "projectUrl":  "https://modrinth.com/mod/punchy-fpa",
+        "has1211":  true
+    },
+    {
+        "query":  "Fancy World Animations",
+        "type":  "mod",
+        "title":  "Fancy World Animations",
+        "slug":  "fwa",
+        "author":  "maDU59_",
+        "description":  "This mod adds animations to a bunch of interactable blocks like doors, trapdoors, levers, buttons, jukeboxes but also swinging lanterns and much more! It makes everything smooth",
+        "client":  "required",
+        "server":  "unsupported",
+        "version":  "1.2.25",
+        "versionId":  "tnozo0k7",
+        "projectUrl":  "https://modrinth.com/mod/fwa",
+        "has1211":  true
+    }
+]

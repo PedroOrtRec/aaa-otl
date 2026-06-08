@@ -38,7 +38,7 @@ hash = "595046904707f120e393bcfd061a3e5f9a4d4d746e3dd615c4fd93b64cbba5ed"
 
 [[files]]
 file = ".github/.context/mod-list.md"
-hash = "327be88b8b8303c2a170e61991f20649a774af4a7c96c82f1cebe52a650a9b1c"
+hash = "a77217b6412997e86ed7b9bf1439c4be5fbda6ab1e29b03aafce12d98cfa533d"
 
 [[files]]
 file = ".github/.context/roadmap.md"
@@ -105,6 +105,14 @@ file = ".github/.context/system-architecture.md"
 hash = "703ef45b9d5601073b49b6a469ea88fc7c7a6411e3cd3baeddc08b5450470f42"
 
 [[files]]
+file = "CHANGELOG.md"
+hash = "773697c589519ddbdcfa70e7be3f0f669ce8b1680bb1c9b0cbc51869695b26c4"
+
+[[files]]
+file = "README.md"
+hash = "f23e749ecc3d09f16972045f1a464d55daed08f31fc8793f2b9bf492a9cb8b42"
+
+[[files]]
 file = "config/DistantHorizons.toml"
 hash = "ac3fef87c4653a44be476c802d4db6a22ffba435d8aaf7e5ef2a0a49f3970d4b"
 
@@ -133,8 +141,20 @@ file = "config/chunky/tasks/minecraft/overworld.properties"
 hash = "cbd6b9a7f5824b1d447f82ddca773e38873e09b5a0157da07a5b8c647a584fb7"
 
 [[files]]
+file = "config/entity_model_features.json"
+hash = "60f0bcc4ba23ad191213298c94d9404eecbd935d8eb7182d112d3726cfeb8cd4"
+
+[[files]]
+file = "config/entity_texture_features.json"
+hash = "889d75199999348872acd61feafb1b8ae3dbdb0230f33c6ad3bd48104bace621"
+
+[[files]]
 file = "config/entityculling.json"
 hash = "e15f0a22ceea09023429943840dfd85c579397a8384f01ae0151b03dc5928cca"
+
+[[files]]
+file = "config/etf_warnings.json"
+hash = "368c428c9edaddb490c2e7339642e79ceddcb0a6fd8fd434c4bd8e1af34c26f8"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -150,7 +170,7 @@ hash = "145656d6c0012e217965f7f45d9322190c0567c2ee4b47aaced6dcf5074c4a83"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "f6b6ee54d5a8f0caf59ffb15330ad89c7628c127a7f7c7ca247175e308868b53"
+hash = "a629663f0b667f3f7254614a4373624799293c1b72fb2ac8cc6641eafa4e9d1c"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -203,6 +223,14 @@ hash = "abb4ed0b0d27660140baeb6d5c38a7b9e5cf3ec8b478f403b4c6256204f2b077"
 [[files]]
 file = "config/parcool-server.toml"
 hash = "c6a0605c3ba680a830a4dbd745792240bbc0ddd94fab70e0f1dfc4f3bc3b9cf7"
+
+[[files]]
+file = "config/punchy/merged_animation_selection.json"
+hash = "4ad8b087e5e094c869219df40782e5972ce5325ab853f3ec19786879a4725646"
+
+[[files]]
+file = "config/punchy/punchy_config.json"
+hash = "b3463fe4e48ca72934f219580c3cc55aa74fc51017caa1cb909114dfb7863df9"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -379,13 +407,28 @@ hash = "2463b6d47984f055d01da8fe61243687ac8e91ea878eedf3c4e324b38feb23d7"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "4629c0df10c3f898e1cb5ee7b8fb0da72925a214f2f76b303b07eca9faf77ddf"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "92eb3e9a8db5e073a4a56bf53b34628666446d86a7af9c2359324095557565d0"
 metafile = true
 
 [[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "26d3a8af113cca71d0e8634656941556613d993ccbbd18ea38fda4cc96244a52"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "67f7b4ff6681b028e1a95917cfba7ae9e41d5fc53359b84e88168a83800469f7"
+metafile = true
+
+[[files]]
+file = "mods/fwa.pw.toml"
+hash = "d11969e32e3416432ce12ae90bf3679c03b52453aceacb0a98932558f750b4f1"
 metafile = true
 
 [[files]]
@@ -469,6 +512,11 @@ hash = "de0d561537704e70ed2abc12bde2d56e45dfdcfacc3e6e56e6eb63636069f047"
 metafile = true
 
 [[files]]
+file = "mods/punchy-fpa.pw.toml"
+hash = "797b8860fe6ccf0272647f9010a0273f3b28a3a66d9ba305b307ec8241c84a02"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "4f65e18b09bb8fd996889be3bcee067df19967f79e3c71f331754f51f2e259cd"
 metafile = true
@@ -517,6 +565,34 @@ hash = "1d5b10856b4b71c2b2ac215561e96dc6a0faf15dba2f3c8fda7ad29b63fe8fd0"
 [[files]]
 file = "reports/gameplay-additions-20260608.md"
 hash = "46fc6d4a2336de14ade7d2892aff7289dc416deea479bd0ed84adc59e7af94e7"
+
+[[files]]
+file = "reports/mod-candidate-add-checks-20260605.json"
+hash = "f58c8500855957e24f60c152bb0ba08c58e3cfe40f83311d8a00f6c160e85504"
+
+[[files]]
+file = "reports/mod-candidate-add-checks-resolved-20260605.json"
+hash = "4a88f7a8ed5491b9d6c3337d4d3fb6651cef14dc32e96b15efe846ffb68ffbd7"
+
+[[files]]
+file = "reports/mod-candidate-ambiguous-authors-20260605.json"
+hash = "8dd7da403b84b4e6b54ddf681631b515b7aeac65077b62cf56e32e29ea77c370"
+
+[[files]]
+file = "reports/mod-candidate-ambiguous-fixes-20260605.json"
+hash = "e9502d8bafa58517074ad333717e5fae8cf63bc01a8f526b92c00ab31d8f4ada"
+
+[[files]]
+file = "reports/mod-candidate-batch-scan-20260605.json"
+hash = "4857aa154a389a2e995d449443e4e1cf913702bc41ac743ee0036b8669ad8dc4"
+
+[[files]]
+file = "reports/mod-candidate-name-fixes-20260605.json"
+hash = "a762229b98e8eb3d1ee08b0f5687756d7b3444e376c76755f63e662fa08e9e69"
+
+[[files]]
+file = "reports/mod-compat-review-immersion-qol-batch-20260605.md"
+hash = "ac4110b8f14f574b2fdd00bd462c0879f5edc9000685c3e8a59500951b7819a7"
 
 [[files]]
 file = "reports/mod-review-c2me-neoforge-20260603-002229.md"
@@ -597,6 +673,26 @@ hash = "d30df1411378487ef8fc8b6be5af1dc783f33e2651d6d9fe6416246edfb186f7"
 [[files]]
 file = "reports/seed-eval-20260602-185217.csv"
 hash = "f597338756078f71ee05e9607e69b786ac1d48159cc1052d552f1c166952b2eb"
+
+[[files]]
+file = "resourcepacks/fa-player-extension.pw.toml"
+hash = "c970e465f656a7b52f3f2c84d5379d61f28a3b509078fd0f30abc5a68d363840"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "9a6be8a14397a32d71304dbd62ef9ab0bcd8296005a5c9145688edc2c07e7621"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "4e608c267b339354f8b17e0ee3425f4ac252273c44eb2c49809895f9f84569af"
+metafile = true
+
+[[files]]
+file = "resourcepacks/hyper-punchy.pw.toml"
+hash = "86e0200f655c908b5bd537a2a21262b3355f55e36ddb7f463885bcc436f57498"
+metafile = true
 
 [[files]]
 file = "scripts/check-workflow.ps1"

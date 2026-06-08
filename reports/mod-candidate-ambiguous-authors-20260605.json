@@ -1,0 +1,30 @@
+﻿[
+    {
+        "query":  "appleskin",
+        "title":  "AppleSkin",
+        "slug":  "appleskin",
+        "author":  "squeek502",
+        "type":  "mod"
+    },
+    {
+        "query":  "personality!",
+        "title":  "Personality",
+        "slug":  "personality!",
+        "author":  "TeamAbnormals",
+        "type":  "mod"
+    },
+    {
+        "query":  "immersive-weather-renewed",
+        "title":  "Immersive Weathering: Renewed",
+        "slug":  "immersive-weather-renewed",
+        "author":  "QanoriaPorts",
+        "type":  "mod"
+    },
+    {
+        "query":  "falling-trees-physics",
+        "title":  "Falling Trees Physics",
+        "slug":  "falling-trees-physics",
+        "author":  "PhilXD",
+        "type":  "mod"
+    }
+]
