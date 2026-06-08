@@ -1,6 +1,6 @@
 # mod-list
 
-Total mods: 24
+Total mods: 29
 
 ## performance
 | Name | Version | Author | Description |
@@ -34,8 +34,13 @@ Total mods: 24
 ## uncategorized
 | Name | Version | Author | Description |
 |---|---|---|---|
+| Better Combat | bettercombat-neoforge-2.3.2+1.21.1 | ZsoltMolnarrr | ‚??Ô∏è Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
 | Cloth Config API | cloth-config-15.0.140-neoforge | shedaniel | Configuration Library for Minecraft Mods |
 | Clumps | Clumps-neoforge-1.21.1-19.0.0.1 | jaredlll08 | Clumps XP orbs together to reduce lag |
+| Grappling Hook Mod: Skybound | grapplemod-1.1+1.21.1.neoforge | weaversworkshop | Grapple onto Create contraptions, Sable airships, and everything in between. Classic grappling hook physics, modernized for Fabric & NeoF... |
+| Keybind Atlas | KeybindAtlas-v1.4.0-mc1.21.1-neoforge | UmbraLykos | Keybind overlay for modpacks that shows what every key does at a glance. |
+| ParCool! | ParCool-1.21.1-3.4.3.3-NF | alRex_U | A Minecraft Forge Mod for Cool actions like Parkour |
+| playerAnimator | player-animation-lib-forge-2.0.4+1.21.1 | KosmX | animate the player |
 | YetAnotherConfigLib (YACL) | yet_another_config_lib_v3-3.8.2+1.21.1-neoforge | isxander | A builder-based configuration library for Minecraft! |
 
-Updated: 2026-06-05 00:55:14
+Updated: 2026-06-08 19:09:04
