@@ -1,0 +1,63 @@
+{
+  "__notice": "Tectonic has a config screen that explains every setting if you go to the in-game mod menu! You can also find config info here -> https://github.com/Apollounknowndev/tectonic/wiki/Config",
+  "minor_version": 1,
+  "general": {
+    "mod_enabled": true,
+    "snow_start_offset": 144
+  },
+  "global_terrain": {
+    "vertical_scale": 2.2,
+    "elevation_boost": 0.08,
+    "min_y": -64,
+    "max_y": 640,
+    "lava_tunnels": true,
+    "ultrasmooth": true
+  },
+  "continents": {
+    "ocean_offset": -0.72,
+    "continents_scale": 0.1,
+    "erosion_scale": 0.16,
+    "ridge_scale": 0.17,
+    "underground_rivers": true,
+    "river_lanterns": true,
+    "river_ice": false,
+    "flat_terrain_skew": 0.03,
+    "rolling_hills": true,
+    "jungle_pillars": true
+  },
+  "islands": {
+    "enabled": true,
+    "noise_scale": 0.09,
+    "noise_multiplier": 1.25,
+    "noise_offset": -0.04
+  },
+  "oceans": {
+    "ocean_depth": -0.36,
+    "deep_ocean_depth": -0.72,
+    "monument_offset": -40,
+    "remove_frozen_ocean_ice": false
+  },
+  "biomes": {
+    "temperature_scale": 0.12,
+    "temperature_multiplier": 1.08,
+    "temperature_offset": 0.0,
+    "vegetation_scale": 0.12,
+    "vegetation_multiplier": 1.08,
+    "vegetation_offset": 0.0
+  },
+  "caves": {
+    "depth_cutoff_start": 0.15,
+    "depth_cutoff_size": 0.1,
+    "cheese_enabled": true,
+    "cheese_additive": 0.23,
+    "noodle_enabled": true,
+    "noodle_additive": -0.09,
+    "spaghetti_enabled": true,
+    "carvers_enabled": true,
+    "ore_fix": false
+  },
+  "experimental": {
+    "alternate_erosion_scaling": false,
+    "alternate_continents_scaling": false
+  }
+}
