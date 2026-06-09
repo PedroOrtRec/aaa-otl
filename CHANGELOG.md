@@ -3,10 +3,11 @@
 ## 2026-06-09
 
 - Incluido Your Options Shall Be Neoforged (YOSBR) para distribuir opciones por defecto de cliente.
-- Añadido preset por defecto de Photon en config/yosbr/shaderpacks/photon_v1.3b.zip.txt.
-- Desactivada la opcion HANDHELD_LIGHTING de Photon por defecto para evitar parpadeos/flashes por luz dinamica duplicada con el datapack Dynamic Lights.
-- Añadido parche automatico post-bootstrap de Prism para forzar dynamicHandLight=false dentro de photon_v1.3b.zip (causa raiz del flicker persistente).
-- Añadida automatizacion en KubeJS cliente para alternar Dynamic Lights por jugador segun estado de shaders (desactiva con shaders activos y reactiva sin shaders).
+- Eliminado el datapack Dynamic Lights del pack.
+- Eliminados los overrides/parches de Photon usados en el diagnostico de flicker.
+- Sustituido el stack de luz dinamica por Sodium Dynamic Lights + Sodium Options API.
+- Revertido Sodium a 0.6.13 y retirado Reese's Sodium Options por incompatibilidad con Iris 1.8.12 (crash al entrar al mundo con Sodium 0.8.x).
+- Retirado Sodium Options API porque exige Reese's Sodium Options; Sodium Dynamic Lights se mantiene operativo sin esa API en este pack.
 
 ## 2026-06-05
 

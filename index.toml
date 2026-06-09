@@ -17,28 +17,12 @@ file = ".github/.context/context-map.md"
 hash = "20b27d4db51e7a9a69ca27f2d148c5dab114a015578b7b4ba12d1175b2a22da3"
 
 [[files]]
-file = ".github/.context/external-server/foxomy-server-profile.md"
-hash = "8b8b47f2153d2220266b14ab95467d8a5b20cfc276ae3eae36bd6fc160ffde8b"
-
-[[files]]
-file = ".github/.context/external-server/manual-copilot-external-server-runbook.md"
-hash = "2baa710e61a58a5022d55264c5089ea8a1a9c4b283c63f21d0ee3835e4394344"
-
-[[files]]
-file = ".github/.context/external-server/pterodactyl-startup-template.md"
-hash = "6d61a71db18d778d9e943d9dce3c6d324d36fc5e9e792386f034361298f72577"
-
-[[files]]
-file = ".github/.context/external-server/startup-packwiz.sh"
-hash = "275e047ee5dce981e65f16d4b0de501f8e8cd184e5d70be6e637d9eaf9d2b369"
-
-[[files]]
 file = ".github/.context/mcp-config.json"
 hash = "595046904707f120e393bcfd061a3e5f9a4d4d746e3dd615c4fd93b64cbba5ed"
 
 [[files]]
 file = ".github/.context/mod-list.md"
-hash = "94e270ae7642be289c15fb7a1f99a90d3fd95381bf687f30979d612ae99ed98f"
+hash = "0549f99da12e352d12242536ec11c4cd8d95701a8c11bd7c73cdd4d336ebb073"
 
 [[files]]
 file = ".github/.context/roadmap.md"
@@ -106,7 +90,7 @@ hash = "703ef45b9d5601073b49b6a469ea88fc7c7a6411e3cd3baeddc08b5450470f42"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "31f4e13997cfae0dfe156148a11d863e5b821a8d9c4d26c1d798a37a52845942"
+hash = "c5237b20b179759437d1a26befc0b368bd81e1f296b159770ce8a5c330af22c8"
 
 [[files]]
 file = "README.md"
@@ -178,15 +162,15 @@ hash = "a629663f0b667f3f7254614a4373624799293c1b72fb2ac8cc6641eafa4e9d1c"
 
 [[files]]
 file = "config/grapplemod-client.json"
-hash = "4d5d43e05581276931d81a19e9f58eb441ebe6edea9efaacdb943eeaabd3e50f"
+hash = "aa5518c827d88107ff7b3bdf3ce41ae7a004e6ae514de410bd32fb42640534b0"
 
 [[files]]
 file = "config/grapplemod-common.json"
-hash = "a4d05974cb8f34f0edec22dc5fc8907bd898df1675d3cd7294ae3d9b2113c723"
+hash = "75fcf886a6fcba774621dfee6fb171d3ce79249bf07a1d1bcedde793eb680edb"
 
 [[files]]
 file = "config/grapplemod-properties.json"
-hash = "ec22ff35a951ebc0dabcf313b200dc893e537cbeb8d86994bf5075b35938711b"
+hash = "54dbed01e97e734abf3fa7fa144d28cd7d7c7dcab4cd480fa904534ff1f21088"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -198,7 +182,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "409059c70d293f1a561d7e223b0ad5e7f3275bb596315d2f4a29dffc40947660"
+hash = "eee28f5b2df874e9ae36ee1ef5b74db588609b1e562d65420c294ec2d09be883"
 
 [[files]]
 file = "config/keybindatlas-client.toml"
@@ -266,7 +250,11 @@ hash = "35d3939d1bc306839c6ad538803288b3d2bc8a2dfed4948eae569d540d6b8058"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "00c7dd465e12693baeb0f9844848eb087f627d98827df51111b080af462d7d73"
+hash = "ef3242a314c4311b64b88ce016acea790d42a35f7c81f0a02934841e64efcda1"
+
+[[files]]
+file = "config/sodiumdynamiclights-client.toml"
+hash = "d8ebc5a26f6f4fc0d27c3746a3aa6ec8d2652873bd3cec6f254be1628f0472f7"
 
 [[files]]
 file = "config/spark/activity.json"
@@ -373,21 +361,12 @@ file = "config/yosbr/options.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "config/yosbr/shaderpacks/photon_v1.3b.zip.txt"
-hash = "7cea03a340d782b3f6002814ba87f830f299de9ebed5b666f858adc55ca6dafa"
-
-[[files]]
-file = "datapacks/dynamic-lights.pw.toml"
-hash = "f2739a635278159f629f4d2d16930c4ae7b5b9b5059b5d26572fea256480b756"
-metafile = true
-
-[[files]]
 file = "kubejs/README.txt"
 hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
-hash = "f10710b981e38e63a0dfd6b54cc61db534f762d0d07fddd0816fbbf721f64ed2"
+hash = "2dea19289b6ba68906358b70927cc57862b718f35a59ca501315da0333f32c5f"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -455,7 +434,7 @@ metafile = true
 
 [[files]]
 file = "mods/fa-player-extension-compat.pw.toml"
-hash = "2e0f5441336f5c080df145c9dd633196bd42888a32fbfd0163913bac6fd2cb72"
+hash = "c70978a859f40d9b3e298fb7ac1d12c38048ca19ac1f998e692137b78bfb30a4"
 metafile = true
 
 [[files]]
@@ -535,7 +514,7 @@ metafile = true
 
 [[files]]
 file = "mods/parcool+-compatibility-addon-neoforge-edition.pw.toml"
-hash = "6ef4a3bd79e608d05d43db5be5bfb349bed035ffe8377ffebebe384e892023e2"
+hash = "01c1b6a47882b0bccffbc56c884126a0f5574543ce93338a5fc2129ffd4793d8"
 metafile = true
 
 [[files]]
@@ -560,7 +539,7 @@ metafile = true
 
 [[files]]
 file = "mods/resource-pack-overrides.pw.toml"
-hash = "b8101dca20d054277d99e75b43dd8db44dea64a761d2ab69fdda9f6d59d9e6f1"
+hash = "16eaf5e109e6d3184769de4533c03190b91f9cab776b5e69348194dcc8aa982b"
 metafile = true
 
 [[files]]
@@ -569,8 +548,13 @@ hash = "4f65e18b09bb8fd996889be3bcee067df19967f79e3c71f331754f51f2e259cd"
 metafile = true
 
 [[files]]
+file = "mods/sodium-dynamic-lights.pw.toml"
+hash = "c1e526d3d17cb3563e596d45c7567ed1fe60c31bdc3457f7a747ef8150bd3c1b"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
-hash = "5dd6edfd9ad1354c5523e7d3949b7082dd323d8d25ad6e88fe63f5782daf0a1b"
+hash = "5aa5f803860e8bfd8db77317575f66e91c0f826c74ec1a141dbc4587b60950fe"
 metafile = true
 
 [[files]]
@@ -736,7 +720,7 @@ hash = "f597338756078f71ee05e9607e69b786ac1d48159cc1052d552f1c166952b2eb"
 
 [[files]]
 file = "resourcepacks/fa-player-extension-x-better-combat.pw.toml"
-hash = "135fea42667366e9eaad1fa0df56eb014fbc7223f7166704218377c74388dfa6"
+hash = "0a26924b99b5a3dc736a96ce2f27c3ca2045279db9c4b45d415f66e944c0a073"
 metafile = true
 
 [[files]]
@@ -780,16 +764,12 @@ file = "scripts/packwiz-refresh.ps1"
 hash = "775318f5adbe43889eeec9e278f1d3f6e99aa5f72d43e8aa34d24e7f86520bd2"
 
 [[files]]
-file = "scripts/patch-photon-shader.ps1"
-hash = "e73a8dec8da260565cf2475feac96b80410586d08f6de05f200039ba5b4abc5c"
-
-[[files]]
 file = "scripts/prepare-prism-check.ps1"
-hash = "632fa91cbea345110500855378384af635bae7684cf3f2c9d97ab3f2558ab27e"
+hash = "99a4054d943151d004c3a5bdea8715bebcbd48528e16c78470f4004936b2b681"
 
 [[files]]
 file = "scripts/prism-packwiz-bootstrap.ps1"
-hash = "038be76fd206f457b2f19c3b691b760e31e1711caae5e71dd7d0be502fc4ef8a"
+hash = "a43a358db969c9c8271980c91b4dae7ddd7cf92fdd49a917baa0315b77903ced"
 
 [[files]]
 file = "scripts/review-content-candidate.ps1"

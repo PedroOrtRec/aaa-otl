@@ -1,6 +1,6 @@
 # mod-list
 
-Total mods: 37
+Total mods: 39
 
 ## performance
 | Name | Version | Author | Description |
@@ -48,7 +48,9 @@ Total mods: 37
 | playerAnimator | player-animation-lib-forge-2.0.4+1.21.1 | KosmX | animate the player |
 | Punchy! | punchy-2.5.5b-neoforge-1.21.1 | PunchyDevGuy | A mod that adds various first person animations and visible hands with held items! |
 | Resource Pack Overrides | ResourcePackOverrides-v21.1.0-1.21.1-NeoForge | Fuzs | Ensures important resource packs stay always active and helps clean up the pack selection screen. |
+| Sodium Dynamic Lights | sodiumdynamiclights-neoforge-1.0.10-1.21.1 | Txni | Multiloader port of LambDynLights that adds Sodium options integration |
+| Sodium Options API | sodiumoptionsapi-neoforge-1.0.10-1.21.1 | Txni | Config API for adding Sodium options with a better categories menu |
 | YetAnotherConfigLib (YACL) | yet_another_config_lib_v3-3.8.2+1.21.1-neoforge | isxander | A builder-based configuration library for Minecraft! |
 | Your Options Shall Be Neoforged (YOSBR) | yosbr-neo-0.1.2.1 | Vercte | Your options shall be respectedâ??even on NeoForge. |
 
-Updated: 2026-06-09 01:17:33
+Updated: 2026-06-09 10:07:26
