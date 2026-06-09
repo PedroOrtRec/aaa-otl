@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Branch default for external-server pull based startup.
+# Built-in defaults for restricted Pterodactyl eggs (no custom startup variables).
 DEFAULT_PACK_URL="https://raw.githubusercontent.com/PedroOrtRec/aaa-otl/terrain/tectonic/pack.toml"
 
+# Optional environment overrides (if panel supports them).
 PACK_URL="${PACK_URL:-$DEFAULT_PACK_URL}"
 BOOTSTRAP_JAR="${BOOTSTRAP_JAR:-packwiz-installer-bootstrap.jar}"
 BOOTSTRAP_URL="${BOOTSTRAP_URL:-https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar}"

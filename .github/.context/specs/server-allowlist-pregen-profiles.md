@@ -36,8 +36,7 @@ kubejs-neoforge-2101.7.1-build.181.jar
 architectury-13.0.8-neoforge.jar
 
 # Worldgen
-tectonic-2.4.1-neoforge.jar
-lithosphere-1.4.0-neoforge.jar
+tectonic-3.0.22-neoforge-21.1.jar
 
 ### profiles.json
 JSON object with named profiles.
