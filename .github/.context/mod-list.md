@@ -1,6 +1,6 @@
 # mod-list
 
-Total mods: 21
+Total mods: 25
 
 ## performance
 | Name | Version | Author | Description |
@@ -31,9 +31,12 @@ Total mods: 21
 | Xaero's Minimap | xaerominimap-neoforge-1.21.1-25.3.13 | thexaero | Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen. Lets you create waypoints which help yo... |
 | Xaero's World Map | xaeroworldmap-neoforge-1.21.1-1.40.16 | thexaero | Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap. |
 
-Updated: 2026-06-02 22:04:56
+## uncategorized
+| Name | Version | Author | Description |
+|---|---|---|---|
+| Chunky | Chunky-NeoForge-1.4.23 | pop4959 | Pre-generates chunks, quickly and efficiently |
+| Concurrent Chunk Management Engine (NeoForge) | c2me-neoforge-mc1.21.1-0.3.0+alpha.0.93 | ishland | A mod designed to improve the chunk performance of Minecraft. |
+| Lithostitched | lithostitched-1.7.9-neoforge-21.1 | Apollo | Library mod with new configurability and compatibility enhancements for worldgen |
+| Tectonic | tectonic-3.0.22-neoforge-21.1 | Apollo | Terrain shaping brought to new heights, grander and more varied than ever before! |
 
-## operational-notes
-- Distant Horizons is temporarily excluded from dedicated server generation/pregen runs to avoid unnecessary resource usage.
-- Current pack metadata setting for this temporary policy: `side = "client"` in `mods/distanthorizons.pw.toml`.
-- Target policy after generation-focused testing ends: restore Distant Horizons to `side = "both"`.
+Updated: 2026-06-09 12:45:19
