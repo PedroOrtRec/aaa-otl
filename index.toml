@@ -38,7 +38,7 @@ hash = "595046904707f120e393bcfd061a3e5f9a4d4d746e3dd615c4fd93b64cbba5ed"
 
 [[files]]
 file = ".github/.context/mod-list.md"
-hash = "a77217b6412997e86ed7b9bf1439c4be5fbda6ab1e29b03aafce12d98cfa533d"
+hash = "94e270ae7642be289c15fb7a1f99a90d3fd95381bf687f30979d612ae99ed98f"
 
 [[files]]
 file = ".github/.context/roadmap.md"
@@ -106,7 +106,7 @@ hash = "703ef45b9d5601073b49b6a469ea88fc7c7a6411e3cd3baeddc08b5450470f42"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "773697c589519ddbdcfa70e7be3f0f669ce8b1680bb1c9b0cbc51869695b26c4"
+hash = "31f4e13997cfae0dfe156148a11d863e5b821a8d9c4d26c1d798a37a52845942"
 
 [[files]]
 file = "README.md"
@@ -142,11 +142,11 @@ hash = "cbd6b9a7f5824b1d447f82ddca773e38873e09b5a0157da07a5b8c647a584fb7"
 
 [[files]]
 file = "config/entity_model_features.json"
-hash = "60f0bcc4ba23ad191213298c94d9404eecbd935d8eb7182d112d3726cfeb8cd4"
+hash = "c633e3370aa256a71ab45aec68683a2ec4b29b6c5c2dfd430f9788a854ccf920"
 
 [[files]]
 file = "config/entity_texture_features.json"
-hash = "889d75199999348872acd61feafb1b8ae3dbdb0230f33c6ad3bd48104bace621"
+hash = "d8d72a9ac49bbe45921f1ace5a22c30b65802c5e70829343cf7acfd25f79b8dc"
 
 [[files]]
 file = "config/entityculling.json"
@@ -154,7 +154,11 @@ hash = "e15f0a22ceea09023429943840dfd85c579397a8384f01ae0151b03dc5928cca"
 
 [[files]]
 file = "config/etf_warnings.json"
-hash = "368c428c9edaddb490c2e7339642e79ceddcb0a6fd8fd434c4bd8e1af34c26f8"
+hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
+
+[[files]]
+file = "config/fape_compat-client.toml"
+hash = "2e2c9d0985ca562296373c1a7777e4f931af9f43a1a98ff87dfcc9d75de2319f"
 
 [[files]]
 file = "config/ferritecore-mixin.toml"
@@ -173,6 +177,18 @@ file = "config/global_packs.toml"
 hash = "a629663f0b667f3f7254614a4373624799293c1b72fb2ac8cc6641eafa4e9d1c"
 
 [[files]]
+file = "config/grapplemod-client.json"
+hash = "4d5d43e05581276931d81a19e9f58eb441ebe6edea9efaacdb943eeaabd3e50f"
+
+[[files]]
+file = "config/grapplemod-common.json"
+hash = "a4d05974cb8f34f0edec22dc5fc8907bd898df1675d3cd7294ae3d9b2113c723"
+
+[[files]]
+file = "config/grapplemod-properties.json"
+hash = "ec22ff35a951ebc0dabcf313b200dc893e537cbeb8d86994bf5075b35938711b"
+
+[[files]]
 file = "config/immediatelyfast.json"
 hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
 
@@ -182,7 +198,11 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "e8c1fee8d593ab8e797c3cfbdf193de9cc97f26cec087ad0e27fea2a92597920"
+hash = "409059c70d293f1a561d7e223b0ad5e7f3275bb596315d2f4a29dffc40947660"
+
+[[files]]
+file = "config/keybindatlas-client.toml"
+hash = "1d81c6459449f8338ea534eacf49dae71509f278589d96497d97e2d6312b0dfb"
 
 [[files]]
 file = "config/krypton_fnp.yaml"
@@ -218,7 +238,7 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
 file = "config/parcool-client.toml"
-hash = "abb4ed0b0d27660140baeb6d5c38a7b9e5cf3ec8b478f403b4c6256204f2b077"
+hash = "a6bc1ed5f86f68b4783435d45a0bf57e53c6f3d4f908bea1db41eeb4635aced0"
 
 [[files]]
 file = "config/parcool-server.toml"
@@ -226,11 +246,15 @@ hash = "c6a0605c3ba680a830a4dbd745792240bbc0ddd94fab70e0f1dfc4f3bc3b9cf7"
 
 [[files]]
 file = "config/punchy/merged_animation_selection.json"
-hash = "4ad8b087e5e094c869219df40782e5972ce5325ab853f3ec19786879a4725646"
+hash = "8ff1258c285a0fe4723edd3ace1dfa87373c98191bef09149466852c86398193"
 
 [[files]]
 file = "config/punchy/punchy_config.json"
 hash = "b3463fe4e48ca72934f219580c3cc55aa74fc51017caa1cb909114dfb7863df9"
+
+[[files]]
+file = "config/resourcepackoverrides.json"
+hash = "9a4ec6bc4bff4b064b0e75b8c7b1ea92a7e242c5f2ad19c66c63e1c0ce6752fd"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -242,7 +266,7 @@ hash = "35d3939d1bc306839c6ad538803288b3d2bc8a2dfed4948eae569d540d6b8058"
 
 [[files]]
 file = "config/sodium-options.json"
-hash = "445a55bccce87dd8467f3265d1572827e8778e873e3bb70290adf0bb8a811e96"
+hash = "00c7dd465e12693baeb0f9844848eb087f627d98827df51111b080af462d7d73"
 
 [[files]]
 file = "config/spark/activity.json"
@@ -345,6 +369,14 @@ file = "config/yacl.json5"
 hash = "8a201ac6b572e9b56ea1de77e13a8d6c8fab64c89727649346e22e6e27413577"
 
 [[files]]
+file = "config/yosbr/options.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yosbr/shaderpacks/photon_v1.3b.zip.txt"
+hash = "7cea03a340d782b3f6002814ba87f830f299de9ebed5b666f858adc55ca6dafa"
+
+[[files]]
 file = "datapacks/dynamic-lights.pw.toml"
 hash = "f2739a635278159f629f4d2d16930c4ae7b5b9b5059b5d26572fea256480b756"
 metafile = true
@@ -355,7 +387,7 @@ hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
-hash = "4e5d2a296790c002a5f998d65331079c06aa1332416553ac2877b2f2541c5014"
+hash = "f10710b981e38e63a0dfd6b54cc61db534f762d0d07fddd0816fbbf721f64ed2"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -388,7 +420,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-combat.pw.toml"
-hash = "5486f656b149dd16ebd97ea62f3410372ad6883604f51e88d14f22c5263a8280"
+hash = "34a7b25b69d8b9985ac2b256ff2d167acebb29aa1c3ca92a5a82c5d1bbc7a1f3"
 metafile = true
 
 [[files]]
@@ -419,6 +451,11 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "26d3a8af113cca71d0e8634656941556613d993ccbbd18ea38fda4cc96244a52"
+metafile = true
+
+[[files]]
+file = "mods/fa-player-extension-compat.pw.toml"
+hash = "2e0f5441336f5c080df145c9dd633196bd42888a32fbfd0163913bac6fd2cb72"
 metafile = true
 
 [[files]]
@@ -463,7 +500,7 @@ metafile = true
 
 [[files]]
 file = "mods/keybind-atlas.pw.toml"
-hash = "d0732a625102bde652de09a97ad94daec007bb8d0f98f4e6ea2ae7036426606a"
+hash = "6c4add043fd44f19d5554f1eacbd2d90ab6554b10c57993781ce1fa0dd8022d4"
 metafile = true
 
 [[files]]
@@ -497,13 +534,18 @@ hash = "fe750805ac24ce8e213f24d5c592b55071720bb55a2103b970970825c8b2f8e1"
 metafile = true
 
 [[files]]
+file = "mods/parcool+-compatibility-addon-neoforge-edition.pw.toml"
+hash = "6ef4a3bd79e608d05d43db5be5bfb349bed035ffe8377ffebebe384e892023e2"
+metafile = true
+
+[[files]]
 file = "mods/parcool.pw.toml"
-hash = "c1bb2b2c278638945373172f712d504441c4b4a97dc3ad4a76dc5f8a36e4c868"
+hash = "be26e2f9113bc0e1f8278a7b0d52d2fe4f2e6de0fcde1d345ec7fd006c483b24"
 metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+hash = "0ce5a698dfeed01077e4b4eca7176491a997364ee7ee475640e495e1647d2e04"
 metafile = true
 
 [[files]]
@@ -514,6 +556,11 @@ metafile = true
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
 hash = "797b8860fe6ccf0272647f9010a0273f3b28a3a66d9ba305b307ec8241c84a02"
+metafile = true
+
+[[files]]
+file = "mods/resource-pack-overrides.pw.toml"
+hash = "b8101dca20d054277d99e75b43dd8db44dea64a761d2ab69fdda9f6d59d9e6f1"
 metafile = true
 
 [[files]]
@@ -547,6 +594,15 @@ hash = "832ee01bb7981b4b3eb298e9a6b0ab1433bd55f958db84d0beb62d318d33968c"
 metafile = true
 
 [[files]]
+file = "mods/yosbr-neo.pw.toml"
+hash = "babb79c200522b34daff7d74c4f6d1a135234447e4c3b7b647f8ebf10e883645"
+metafile = true
+
+[[files]]
+file = "reports/change-log-and-prism-sync-20260609.md"
+hash = "54cc5ea209da10682bb10b722a76724bac4129f3a13ea63583a1fcba5f73079e"
+
+[[files]]
 file = "reports/chunky-progress-20260603-144904.md"
 hash = "60d78dc0a3e76d0713b3c2c6e396e78e13e1030738f22b2a1770c0b04cb5c4b5"
 
@@ -565,6 +621,10 @@ hash = "1d5b10856b4b71c2b2ac215561e96dc6a0faf15dba2f3c8fda7ad29b63fe8fd0"
 [[files]]
 file = "reports/gameplay-additions-20260608.md"
 hash = "46fc6d4a2336de14ade7d2892aff7289dc416deea479bd0ed84adc59e7af94e7"
+
+[[files]]
+file = "reports/handoff-flicker-photon-dynamiclights-20260609.md"
+hash = "3365bc4905123dd08b0131d7ed193cf1a2f9f63ca983418640257788776e4ade"
 
 [[files]]
 file = "reports/mod-candidate-add-checks-20260605.json"
@@ -675,6 +735,11 @@ file = "reports/seed-eval-20260602-185217.csv"
 hash = "f597338756078f71ee05e9607e69b786ac1d48159cc1052d552f1c166952b2eb"
 
 [[files]]
+file = "resourcepacks/fa-player-extension-x-better-combat.pw.toml"
+hash = "135fea42667366e9eaad1fa0df56eb014fbc7223f7166704218377c74388dfa6"
+metafile = true
+
+[[files]]
 file = "resourcepacks/fa-player-extension.pw.toml"
 hash = "c970e465f656a7b52f3f2c84d5379d61f28a3b509078fd0f30abc5a68d363840"
 metafile = true
@@ -715,12 +780,16 @@ file = "scripts/packwiz-refresh.ps1"
 hash = "775318f5adbe43889eeec9e278f1d3f6e99aa5f72d43e8aa34d24e7f86520bd2"
 
 [[files]]
+file = "scripts/patch-photon-shader.ps1"
+hash = "e73a8dec8da260565cf2475feac96b80410586d08f6de05f200039ba5b4abc5c"
+
+[[files]]
 file = "scripts/prepare-prism-check.ps1"
-hash = "99a4054d943151d004c3a5bdea8715bebcbd48528e16c78470f4004936b2b681"
+hash = "632fa91cbea345110500855378384af635bae7684cf3f2c9d97ab3f2558ab27e"
 
 [[files]]
 file = "scripts/prism-packwiz-bootstrap.ps1"
-hash = "a43a358db969c9c8271980c91b4dae7ddd7cf92fdd49a917baa0315b77903ced"
+hash = "038be76fd206f457b2f19c3b691b760e31e1711caae5e71dd7d0be502fc4ef8a"
 
 [[files]]
 file = "scripts/review-content-candidate.ps1"

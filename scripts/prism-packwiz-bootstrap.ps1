@@ -10,6 +10,7 @@ $repoRootResolved = (Resolve-Path $RepoRoot).Path
 $instanceMinecraft = Join-Path $env:APPDATA ("PrismLauncher/instances/{0}/minecraft" -f $InstanceName)
 $bootstrapJar = Join-Path $instanceMinecraft "packwiz-installer-bootstrap.jar"
 $packUrl = "http://127.0.0.1:$Port/pack.toml"
+$photonPatchScript = Join-Path $repoRootResolved "scripts/patch-photon-shader.ps1"
 
 if (-not (Test-Path $bootstrapJar)) {
     throw "Bootstrap jar not found: $bootstrapJar"
@@ -51,6 +52,10 @@ try {
     $serveProcess = Wait-PackwizServe -WorkingDir $repoRootResolved -Port $Port
     $javaCmd = (Get-Command java -ErrorAction Stop).Source
     & $javaCmd -jar $bootstrapJar $packUrl
+
+    if (Test-Path $photonPatchScript) {
+        & powershell -ExecutionPolicy Bypass -File $photonPatchScript -InstanceName $InstanceName
+    }
 }
 finally {
     Pop-Location

@@ -1,6 +1,6 @@
 # mod-list
 
-Total mods: 33
+Total mods: 37
 
 ## performance
 | Name | Version | Author | Description |
@@ -39,12 +39,16 @@ Total mods: 33
 | Better Combat | bettercombat-neoforge-2.3.2+1.21.1 | ZsoltMolnarrr | ‚??Ô∏è Easy, spectacular and fun melee combat system from Minecraft Dungeons. |
 | Cloth Config API | cloth-config-15.0.140-neoforge | shedaniel | Configuration Library for Minecraft Mods |
 | Clumps | Clumps-neoforge-1.21.1-19.0.0.1 | jaredlll08 | Clumps XP orbs together to reduce lag |
+| FA: Player Extension Compat | fape_compat-0.5 | AxoLabs | FA: Player Extension Compat bridges the gap between the FA: Player Extension resource pack and combat animation mods. It ensures EMF-driv... |
 | Fancy World Animations | fwa+1.21.1-neoforge-1.2.24 | maDU59_ | This mod adds animations to a bunch of interactable blocks like doors, trapdoors, levers, buttons, jukeboxes but also swinging lanterns a... |
 | Grappling Hook Mod: Skybound | grapplemod-1.1+1.21.1.neoforge | weaversworkshop | Grapple onto Create contraptions, Sable airships, and everything in between. Classic grappling hook physics, modernized for Fabric & NeoF... |
 | Keybind Atlas | KeybindAtlas-v1.4.0-mc1.21.1-neoforge | UmbraLykos | Keybind overlay for modpacks that shows what every key does at a glance. |
 | ParCool! | ParCool-1.21.1-3.4.3.3-NF | alRex_U | A Minecraft Forge Mod for Cool actions like Parkour |
+| ParCool+ / Compatibility Addon NeoForge Edition | ParCool-CompatibilityAddon-1.21.1-3.4.3.1-1.1 | semillakan6 | A NeoForge 1.21.1 addon for ParCool that improves compatibility with Better Combat, Carry On, Player Animator, and (client-side) ETF/EMF ... |
 | playerAnimator | player-animation-lib-forge-2.0.4+1.21.1 | KosmX | animate the player |
 | Punchy! | punchy-2.5.5b-neoforge-1.21.1 | PunchyDevGuy | A mod that adds various first person animations and visible hands with held items! |
+| Resource Pack Overrides | ResourcePackOverrides-v21.1.0-1.21.1-NeoForge | Fuzs | Ensures important resource packs stay always active and helps clean up the pack selection screen. |
 | YetAnotherConfigLib (YACL) | yet_another_config_lib_v3-3.8.2+1.21.1-neoforge | isxander | A builder-based configuration library for Minecraft! |
+| Your Options Shall Be Neoforged (YOSBR) | yosbr-neo-0.1.2.1 | Vercte | Your options shall be respected‚??even on NeoForge. |
 
-Updated: 2026-06-08 19:13:25
+Updated: 2026-06-09 01:17:33

@@ -92,8 +92,8 @@
 		enable_DiveAnimationHostAnimator = true
 		enable_DiveIntoWaterAnimator = true
 		enable_DodgeAnimator = true
-		enable_FastRunningAnimator = true
-		enable_FastSwimAnimator = true
+		enable_FastRunningAnimator = false
+		enable_FastSwimAnimator = false
 		enable_FlippingAnimator = true
 		enable_HideInBlockAnimator = true
 		enable_HorizontalWallRunAnimator = true

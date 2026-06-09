@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-06-09
+
+- Incluido Your Options Shall Be Neoforged (YOSBR) para distribuir opciones por defecto de cliente.
+- Añadido preset por defecto de Photon en config/yosbr/shaderpacks/photon_v1.3b.zip.txt.
+- Desactivada la opcion HANDHELD_LIGHTING de Photon por defecto para evitar parpadeos/flashes por luz dinamica duplicada con el datapack Dynamic Lights.
+- Añadido parche automatico post-bootstrap de Prism para forzar dynamicHandLight=false dentro de photon_v1.3b.zip (causa raiz del flicker persistente).
+- Añadida automatizacion en KubeJS cliente para alternar Dynamic Lights por jugador segun estado de shaders (desactiva con shaders activos y reactiva sin shaders).
+
 ## 2026-06-05
 
 - Incluido [EMF] Entity Model Features (cliente).

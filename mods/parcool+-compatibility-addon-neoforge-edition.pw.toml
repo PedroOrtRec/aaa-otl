@@ -1,0 +1,13 @@
+name = "ParCool+ / Compatibility Addon NeoForge Edition"
+filename = "ParCool-CompatibilityAddon-1.21.1-3.4.3.1-1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YpPfINZw/versions/zSCsEKfr/ParCool-CompatibilityAddon-1.21.1-3.4.3.1-1.1.jar"
+hash-format = "sha512"
+hash = "5905c21b742b41cd136a7dced51563f6f9dd47c231b1d47c1b9d4b22acec30ecb868339c6d67df59a18cd7a160fbcd8f0b13ce55b8b9d8f5b44595891bf2b69c"
+
+[update]
+[update.modrinth]
+mod-id = "YpPfINZw"
+version = "zSCsEKfr"

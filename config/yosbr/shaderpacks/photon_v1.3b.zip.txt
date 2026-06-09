@@ -1,0 +1,4 @@
+# Default Photon overrides for AAA OTL.
+# Prevent duplicate handheld lighting when the Dynamic Lights datapack is active.
+HANDHELD_LIGHTING=false
+HANDHELD_LIGHTING_INTENSITY=0.00

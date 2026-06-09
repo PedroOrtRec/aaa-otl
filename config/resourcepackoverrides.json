@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "default_packs": [
+    "file/HyperPunchy-v2.5+.zip",
+    "file/FA+All_Extensions-v1.8.1.zip",
+    "file/FreshAnimations_v1.10.4.zip",
+    "file/FA+Player-v1.0.zip",
+    "file/PA-FA-Compat-v1.zip"
+  ],
+  "pack_overrides": {
+    "1": [
+      "file/HyperPunchy-v2.5+.zip",
+      "file/FA+All_Extensions-v1.8.1.zip",
+      "file/FreshAnimations_v1.10.4.zip",
+      "file/FA+Player-v1.0.zip",
+      "file/PA-FA-Compat-v1.zip"
+    ],
+    "$$1": {
+      "fixed_position": true,
+      "required": true
+    }
+  }
+}
