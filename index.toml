@@ -65,6 +65,10 @@ file = "config/modernfix-mixins.properties"
 hash = "32bbaa6f573b612b92653fc2814365cd8aa423d39fcab4fa5dcfcb5f31121874"
 
 [[files]]
+file = "config/naturaltemperature-common.toml"
+hash = "93053e2d5a585132ea79db64be0e5eea8c016a6514f69de5a5b435c816793d44"
+
+[[files]]
 file = "config/neoforge-client.toml"
 hash = "d58d93e2c429410d0abf25507d1679f732e1023b03bb52414348efcf5cf3ddb0"
 
@@ -299,6 +303,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "183503db44a6262582d6b1a53087dee5510c23b0d69a8f097d6edc63a4ee59f0"
+metafile = true
+
+[[files]]
+file = "mods/natural-temperature.pw.toml"
+hash = "0148e7875fd7f46534773f4b76b56e40e4c689c61b4a93af9167be394cd72671"
 metafile = true
 
 [[files]]

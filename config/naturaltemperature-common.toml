@@ -1,0 +1,89 @@
+# Natural Temperature COMMON config
+# Profile goal (azimuthal/polar map):
+# - North pole at (0,0).
+# - Equator as a middle-radius ring.
+# - South pole near the finite world border as outer cold ring.
+# - Very smooth, realistic transitions.
+
+# Base climate scale in blocks (for this test: world radius = 10k).
+# In circular mode this acts as the outer climate radius.
+equatorial_distance = 10000.0
+
+# Keep false for a finite world with a real southern end.
+looping_world = false
+
+# 0: default, 1: simplified, 2: linear, 3: custom circular, 4: circular
+# 3 lets us control ring temperatures: cold core, hot mid ring, cold edge.
+generation_mode = 3
+
+# Positive values move the equator north.
+# 0 keeps the default north anchor behavior used in this profile.
+equator_offset = 0.0
+
+# Underground behavior
+randomize_underground = true
+randomize_underground_below_y = 20.0
+underground_randomization_type = 1
+
+# Keep other dimensions independent unless explicitly desired.
+multidimensional_bands = false
+
+# Global thermal controls
+global_temperature_modifier_percentage = 0.0
+
+# Very high mitigation softens jumps for long realistic gradients.
+global_temperature_mitigation_percentage = 88.0
+
+# Adds extra transition around hot/humid contacts.
+extra_bands = true
+
+# Keep waviness very low for clean concentric transitions.
+wave_magnification = 0.15
+
+# Custom temperature zones (-1.0 cold .. 1.0 hot, 8.0=random)
+# Ring intent (mode 3):
+# - Zone 1 (inner core): north pole cold
+# - Zone 2 (mid ring): equator hot maximum
+# - Zone 3 (outer-mid): cooling south temperate
+# - Zone 4 (outer edge): south pole cold
+temperature_zone_1 = -0.92
+temperature_zone_2 = 0.96
+temperature_zone_3 = 0.32
+temperature_zone_4 = -0.94
+temperature_zone_5 = -0.94
+temperature_zone_6 = -0.94
+
+# Custom humidity zones (-1.0 dry .. 1.0 humid, 8.0=random)
+humidity_zone_1 = -0.25
+humidity_zone_2 = 0.78
+humidity_zone_3 = 0.42
+humidity_zone_4 = -0.30
+humidity_zone_5 = -0.30
+humidity_zone_6 = -0.30
+
+# West/east humidity shift
+info_humidity_offset = 0.0
+
+# Coverage by zone for banded/custom modes (kept smooth and balanced)
+percentage_coverage_zone_1 = 15.0
+percentage_coverage_zone_2 = 17.0
+percentage_coverage_zone_3 = 18.0
+percentage_coverage_zone_4 = 18.0
+percentage_coverage_zone_5 = 17.0
+percentage_coverage_zone_6 = 15.0
+
+# Secondary humidity bands are disabled for cleaner radial climate rings.
+enable_humidity_bands = false
+humidity_bands_width = 12000.0
+
+# Custom mode IDs (kept default unless generation_mode maps to custom ids)
+custom_mode_id_1 = "default"
+custom_mode_id_2 = "default"
+custom_mode_id_3 = "default"
+custom_mode_id_4 = "default"
+custom_mode_id_5 = "default"
+
+show_gui_button = true
+
+# Keep full effect from Natural Temperature on worldgen.
+natural_temperature_influence = 100.0
