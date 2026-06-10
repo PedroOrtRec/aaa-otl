@@ -31,14 +31,14 @@ multidimensional_bands = false
 # Global thermal controls
 global_temperature_modifier_percentage = 0.0
 
-# Very high mitigation softens jumps for long realistic gradients.
-global_temperature_mitigation_percentage = 88.0
+# High mitigation softens abrupt biome thresholds between radial bands.
+global_temperature_mitigation_percentage = 92.0
 
 # Adds extra transition around hot/humid contacts.
 extra_bands = true
 
-# Keep waviness very low for clean concentric transitions.
-wave_magnification = 0.15
+# Add moderate waviness to avoid perfectly circular hard borders.
+wave_magnification = 0.55
 
 # Custom temperature zones (-1.0 cold .. 1.0 hot, 8.0=random)
 # Ring intent (mode 3):
@@ -46,12 +46,12 @@ wave_magnification = 0.15
 # - Zone 2 (mid ring): equator hot maximum
 # - Zone 3 (outer-mid): cooling south temperate
 # - Zone 4 (outer edge): south pole cold
-temperature_zone_1 = -0.92
-temperature_zone_2 = 0.96
-temperature_zone_3 = 0.32
-temperature_zone_4 = -0.94
-temperature_zone_5 = -0.94
-temperature_zone_6 = -0.94
+temperature_zone_1 = -0.78
+temperature_zone_2 = 0.78
+temperature_zone_3 = 0.25
+temperature_zone_4 = -0.78
+temperature_zone_5 = -0.78
+temperature_zone_6 = -0.78
 
 # Custom humidity zones (-1.0 dry .. 1.0 humid, 8.0=random)
 humidity_zone_1 = -0.25
@@ -85,5 +85,5 @@ custom_mode_id_5 = "default"
 
 show_gui_button = true
 
-# Keep full effect from Natural Temperature on worldgen.
-natural_temperature_influence = 100.0
+# Blend with vanilla/Tectonic climate noise to soften hard band borders.
+natural_temperature_influence = 90.0

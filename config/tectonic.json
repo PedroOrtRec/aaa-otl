@@ -38,11 +38,11 @@
     "remove_frozen_ocean_ice": false
   },
   "biomes": {
-    "temperature_scale": 0.12,
-    "temperature_multiplier": 1.08,
+    "temperature_scale": 0.20,
+    "temperature_multiplier": 1.0,
     "temperature_offset": 0.0,
-    "vegetation_scale": 0.12,
-    "vegetation_multiplier": 1.08,
+    "vegetation_scale": 0.20,
+    "vegetation_multiplier": 1.0,
     "vegetation_offset": 0.0
   },
   "caves": {
